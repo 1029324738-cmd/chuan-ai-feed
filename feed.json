@@ -1,27 +1,27 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-15T18:51:17.725000+00:00",
+  "generatedAt": "2026-09-15T19:01:42.311636+00:00",
   "windowDays": 7,
   "runner": {
     "environment": "github-actions",
-    "runUrl": "https://github.com/1029324738-cmd/chuan-ai-feed/actions/runs/35010044068",
+    "runUrl": "https://github.com/1029324738-cmd/chuan-ai-feed/actions/runs/35010923341",
     "event": "push",
     "storage": "GitHub repository"
   },
   "stats": {
-    "fetched": 1204,
-    "uniqueRecent": 295,
-    "included": 100,
+    "fetched": 1203,
+    "uniqueRecent": 296,
+    "included": 98,
     "sourcesOK": 11,
     "sourcesTotal": 12,
     "excluded": {
       "old": 872,
       "unknownDate": 0,
       "future": 0,
-      "duplicate": 37
+      "duplicate": 35
     },
-    "relevanceExcluded": 0,
-    "translated": 92
+    "relevanceExcluded": 2,
+    "translated": 88
   },
   "sources": [
     {
@@ -29,21 +29,21 @@
       "name": "Hacker News · AI",
       "status": "ok",
       "fetched": 85,
-      "elapsedSeconds": 0.54
+      "elapsedSeconds": 0.52
     },
     {
       "id": "hn-agent",
       "name": "Hacker News · Agent",
       "status": "ok",
-      "fetched": 87,
-      "elapsedSeconds": 0.66
+      "fetched": 86,
+      "elapsedSeconds": 0.34
     },
     {
       "id": "hn-llm",
       "name": "Hacker News · LLM",
       "status": "ok",
       "fetched": 60,
-      "elapsedSeconds": 0.6
+      "elapsedSeconds": 0.59
     },
     {
       "id": "v2ex-ai",
@@ -51,66 +51,168 @@
       "status": "error",
       "fetched": 0,
       "error": "HTTP Error 404: Not Found",
-      "elapsedSeconds": 21.16
+      "elapsedSeconds": 1.36
     },
     {
       "id": "v2ex-create",
       "name": "V2EX · 分享创造",
       "status": "ok",
       "fetched": 8,
-      "elapsedSeconds": 0.28
+      "elapsedSeconds": 0.25
     },
     {
       "id": "v2ex-share",
       "name": "V2EX · 分享发现",
       "status": "ok",
       "fetched": 2,
-      "elapsedSeconds": 0.28
+      "elapsedSeconds": 0.33
     },
     {
       "id": "simon",
       "name": "Simon Willison",
       "status": "ok",
       "fetched": 20,
-      "elapsedSeconds": 0.28
+      "elapsedSeconds": 0.21
     },
     {
       "id": "hf-papers",
       "name": "Hugging Face · 论文",
       "status": "ok",
       "fetched": 30,
-      "elapsedSeconds": 0.19
+      "elapsedSeconds": 0.13
     },
     {
       "id": "hf-blog",
       "name": "Hugging Face · 博客",
       "status": "ok",
       "fetched": 862,
-      "elapsedSeconds": 0.15
+      "elapsedSeconds": 0.11
     },
     {
       "id": "comfy-releases",
       "name": "ComfyUI · 更新",
       "status": "ok",
       "fetched": 10,
-      "elapsedSeconds": 0.59
+      "elapsedSeconds": 0.5
     },
     {
       "id": "ollama-releases",
       "name": "Ollama · 更新",
       "status": "ok",
       "fetched": 10,
-      "elapsedSeconds": 0.43
+      "elapsedSeconds": 0.32
     },
     {
       "id": "n8n",
       "name": "n8n · 社区",
       "status": "ok",
       "fetched": 30,
-      "elapsedSeconds": 0.98
+      "elapsedSeconds": 0.81
     }
   ],
   "items": [
+    {
+      "id": "c7a1556eb43880cb7034",
+      "title": "AI Infrastructure at Periodic",
+      "url": "https://news.ycombinator.com/item?id=49717176",
+      "author": "arkadiyt",
+      "publishedAt": "2026-09-15T18:59:53+00:00",
+      "source": "Hacker News · AI",
+      "sourceId": "hn-ai",
+      "region": "海外",
+      "kind": "社区分享",
+      "dateBasis": "社区帖发布时间",
+      "evidence": "已读取公开原帖文字／订阅摘要，未实测产品",
+      "originalUrl": "https://periodic.com/news/ai-infrastructure-at-periodic",
+      "authorUrl": "https://news.ycombinator.com/user?id=arkadiyt",
+      "authorRole": "HN 发帖者；Show HN 项目归属需核对",
+      "sourceRelations": "社区首发／转发，外链原文发布时间未确认",
+      "engagement": {
+        "points": 1,
+        "comments": 0
+      },
+      "collectedAt": "2026-09-15T19:01:42.311636+00:00",
+      "readingStatus": "外链可读文字已获取",
+      "contentHash": "bfba031dc9dae185d0aeccd93df427b3e794ea22317eb8b08562f163cee9e022",
+      "sourceExcerpt": "The training, inference, and sandboxing infrastructure behind Periodic Neon and how we make scientific AI efficient at scale. AI Infrastructure at Periodic – Periodic Labs News Car"
+    },
+    {
+      "id": "fc9ac472b8d072dea2bd",
+      "title": "Writing More Secure Code with LLMs: Why \"Make No Mistakes\" Falls Short",
+      "url": "https://news.ycombinator.com/item?id=49717120",
+      "author": "aray07",
+      "publishedAt": "2026-09-15T18:55:23+00:00",
+      "source": "Hacker News · LLM",
+      "sourceId": "hn-llm",
+      "region": "海外",
+      "kind": "社区分享",
+      "dateBasis": "社区帖发布时间",
+      "evidence": "已读取公开原帖文字／订阅摘要，未实测产品",
+      "originalUrl": "https://monad.xyz/blog/writing-secure-code-with-llms",
+      "authorUrl": "https://news.ycombinator.com/user?id=aray07",
+      "authorRole": "HN 发帖者；Show HN 项目归属需核对",
+      "sourceRelations": "社区首发／转发，外链原文发布时间未确认",
+      "engagement": {
+        "points": 1,
+        "comments": 0
+      },
+      "collectedAt": "2026-09-15T19:01:42.311636+00:00",
+      "readingStatus": "外链可读文字已获取",
+      "contentHash": "c39c6057dc1c1789726effef1d7114b68e63d786d20b668aa7fcbf418f68ecab",
+      "sourceExcerpt": "Holding the task and model fixed and changing only the prompt, a generic secure-coding checklist barely helped, while an app-specific threat model cut validated vulnerability findi"
+    },
+    {
+      "id": "a19e5d1385361e5fb8c6",
+      "title": "Universal Sues DistroKid for Deceptive Practices and 'AI-Slop Pipeline'",
+      "url": "https://news.ycombinator.com/item?id=49717056",
+      "author": "ilamont",
+      "publishedAt": "2026-09-15T18:52:13+00:00",
+      "source": "Hacker News · AI",
+      "sourceId": "hn-ai",
+      "region": "海外",
+      "kind": "社区分享",
+      "dateBasis": "社区帖发布时间",
+      "evidence": "已读取公开原帖文字／订阅摘要，未实测产品",
+      "originalUrl": "https://variety.com/2026/music/news/universal-music-group-sues-distrokid-ai-slop-pipeline-1236863076/",
+      "authorUrl": "https://news.ycombinator.com/user?id=ilamont",
+      "authorRole": "HN 发帖者；Show HN 项目归属需核对",
+      "sourceRelations": "社区首发／转发，外链原文发布时间未确认",
+      "engagement": {
+        "points": 1,
+        "comments": 0
+      },
+      "collectedAt": "2026-09-15T19:01:42.311636+00:00",
+      "readingStatus": "外链可读文字已获取",
+      "originalAuthor": "Corbin Bolies",
+      "contentHash": "0d90f5068057c94a05d7850c19455dfc8f4ffafc339a6c499877e30315d94920",
+      "sourceExcerpt": "Universal Music Group sued the distribution service DistroKid on Tuesday, claiming the service infringed on the label’s copyright. Universal Music Group Sues DistroKid for Building"
+    },
+    {
+      "id": "22b23e8d7231a6c4c90f",
+      "title": "Hassett: Trump 'wholeheartedly rejects government takeover of AI regulation",
+      "url": "https://news.ycombinator.com/item?id=49717031",
+      "author": "Betelbuddy",
+      "publishedAt": "2026-09-15T18:50:58+00:00",
+      "source": "Hacker News · AI",
+      "sourceId": "hn-ai",
+      "region": "海外",
+      "kind": "社区分享",
+      "dateBasis": "社区帖发布时间",
+      "evidence": "已读取公开原帖文字／订阅摘要，未实测产品",
+      "originalUrl": "https://www.youtube.com/watch?v=xkNAbgS6b5g",
+      "authorUrl": "https://news.ycombinator.com/user?id=Betelbuddy",
+      "authorRole": "HN 发帖者；Show HN 项目归属需核对",
+      "sourceRelations": "社区首发／转发，外链原文发布时间未确认",
+      "engagement": {
+        "points": 1,
+        "comments": 0
+      },
+      "collectedAt": "2026-09-15T19:01:42.311636+00:00",
+      "readingStatus": "仅标题／外链待核查",
+      "originReadError": "Insufficient readable text",
+      "contentHash": "edec2d2740433c971114f65063d02f50f05e0e91b8dd2506872d9817398a6fd0",
+      "sourceExcerpt": ""
+    },
     {
       "id": "be58f42f8d71291ff82f",
       "title": "Show HN: The Brand API, a taste tool for agents",
@@ -128,10 +230,10 @@
       "authorRole": "HN 发帖者；Show HN 项目归属需核对",
       "sourceRelations": "社区首发／转发，外链原文发布时间未确认",
       "engagement": {
-        "points": 2,
+        "points": 3,
         "comments": 0
       },
-      "collectedAt": "2026-09-15T18:51:17.725000+00:00",
+      "collectedAt": "2026-09-15T19:01:42.311636+00:00",
       "readingStatus": "仅标题／外链待核查",
       "originReadError": "Insufficient readable text",
       "contentHash": "ca1264058a66d4287efe728178a9d096adc1b435529654c456c59e55151a334f",
@@ -166,7 +268,7 @@
         "points": 1,
         "comments": 0
       },
-      "collectedAt": "2026-09-15T18:51:17.725000+00:00",
+      "collectedAt": "2026-09-15T19:01:42.311636+00:00",
       "readingStatus": "外链可读文字已获取",
       "contentHash": "b07c77d4f15d0916d0c9f461fdedad25598b4b8d57a0038945955ecfad0317ae",
       "titleZh": "用 Brig 在微虚拟机中运行代码编写智能体",
@@ -197,10 +299,10 @@
       "authorRole": "HN 发帖者；Show HN 项目归属需核对",
       "sourceRelations": "社区首发／转发，外链原文发布时间未确认",
       "engagement": {
-        "points": 4,
-        "comments": 0
+        "points": 5,
+        "comments": 1
       },
-      "collectedAt": "2026-09-15T18:51:17.725000+00:00",
+      "collectedAt": "2026-09-15T19:01:42.311636+00:00",
       "readingStatus": "外链可读文字已获取",
       "contentHash": "d536c5efb64d9adb256d889bf5d8fde25a58492997c2900b54d038019ad518c8",
       "titleZh": "AI 智能体用诗意与科技黑话自创“怪异”语言",
@@ -231,17 +333,17 @@
       "authorRole": "HN 发帖者；Show HN 项目归属需核对",
       "sourceRelations": "社区首发／转发，外链原文发布时间未确认",
       "engagement": {
-        "points": 2,
+        "points": 3,
         "comments": 0
       },
-      "collectedAt": "2026-09-15T18:51:17.725000+00:00",
+      "collectedAt": "2026-09-15T19:01:42.311636+00:00",
       "readingStatus": "外链可读文字已获取",
       "originalAuthor": "Andrew P. Collins",
-      "contentHash": "a22afc07341f40fc166800d60a96aec1f78ff74386c1a8521d9b4c611b542817",
-      "titleZh": "AI 摄像头装在垃圾车上给房子打分并抓违章",
-      "summaryZh": "发帖者报道 City Detect 公司在垃圾车上装 AI 摄像头，给房屋打“衰败分”并抓拍草坪高度等违章，引发对隐私和低收入群体不公的担忧。",
-      "authorSays": "发帖者称该系统已在达拉斯等地运行，AI 识别出超过两万处违规，但 CEO 声称已模糊人脸车牌且需人工复核，发帖者认为这是变相的“HOA”。",
-      "angle": "建议：拍摄垃圾车摄像头视角的画面，对比被标记为违规的房屋外观，讨论这种技术如何改变社区管理和隐私边界。",
+      "contentHash": "437e09b59e738ca9899459a8d96ba759b0e5b697fa79f1d6e498a2c994fe0a2b",
+      "titleZh": "垃圾车装AI摄像头给房屋打分，发警告信",
+      "summaryZh": "达拉斯的垃圾车安装了AI摄像头，用于给房屋打分并因违规（如草坪高度）发送警告。发帖者认为这把城市变成了“HOA”，并指出低收入社区受到不成比例的影响。公司声称其系统模糊人脸/车牌，且不连接执法数据库。",
+      "authorSays": "发帖者认为这项技术把整个国家变成了“HOA”，并指出低收入社区受到不成比例的影响。公司声称其系统模糊人脸/车牌，且不连接执法数据库。",
+      "angle": "建议：拍摄垃圾车摄像头与房屋的对比，展示评分如何影响低收入社区，并核实公司关于数据隐私的声明。",
       "level": "入门",
       "category": "行业讨论",
       "relevant": true,
@@ -269,7 +371,7 @@
         "points": 1,
         "comments": 0
       },
-      "collectedAt": "2026-09-15T18:51:17.725000+00:00",
+      "collectedAt": "2026-09-15T19:01:42.311636+00:00",
       "readingStatus": "仅标题／外链待核查",
       "originReadError": "HTTP Error 403: Forbidden",
       "contentHash": "5e4b488c1fc8f28121a8f9e31b0d756ebe62b10d01d5cad3510a6a718faed331",
@@ -304,7 +406,7 @@
         "points": 1,
         "comments": 0
       },
-      "collectedAt": "2026-09-15T18:51:17.725000+00:00",
+      "collectedAt": "2026-09-15T19:01:42.311636+00:00",
       "readingStatus": "外链可读文字已获取",
       "contentHash": "1f777f948ef3053683b502975557950a6e528cba09a154565b995c8aa0a4bc36",
       "titleZh": "Foxglove：给图片“投毒”以对抗AI训练",
@@ -335,10 +437,10 @@
       "authorRole": "HN 发帖者；Show HN 项目归属需核对",
       "sourceRelations": "社区首发／转发，外链原文发布时间未确认",
       "engagement": {
-        "points": 4,
+        "points": 5,
         "comments": 1
       },
-      "collectedAt": "2026-09-15T18:51:17.725000+00:00",
+      "collectedAt": "2026-09-15T19:01:42.311636+00:00",
       "readingStatus": "仅标题／外链待核查",
       "originReadError": "Insufficient readable text",
       "contentHash": "372c840f49e84a579f9af8bdbe92183b2164c1ea91a448a9da0aa75a55b5e269",
@@ -370,10 +472,10 @@
       "authorRole": "HN 发帖者；Show HN 项目归属需核对",
       "sourceRelations": "社区首发／转发，外链原文发布时间未确认",
       "engagement": {
-        "points": 10,
-        "comments": 2
+        "points": 11,
+        "comments": 3
       },
-      "collectedAt": "2026-09-15T18:51:17.725000+00:00",
+      "collectedAt": "2026-09-15T19:01:42.311636+00:00",
       "readingStatus": "外链可读文字已获取",
       "contentHash": "8405b8330cc284e477f6471e1d3b4627b714ee59f3a2766a263beace749b7c13",
       "titleZh": "用40行JS代码解释AI工具调用原理",
@@ -404,16 +506,16 @@
       "authorRole": "HN 发帖者；Show HN 项目归属需核对",
       "sourceRelations": "社区首发／转发，外链原文发布时间未确认",
       "engagement": {
-        "points": 11,
-        "comments": 0
+        "points": 13,
+        "comments": 1
       },
-      "collectedAt": "2026-09-15T18:51:17.725000+00:00",
+      "collectedAt": "2026-09-15T19:01:42.311636+00:00",
       "readingStatus": "外链可读文字已获取",
-      "contentHash": "5786ea5efbc1e64fd290d0d77ba24bef938e619685db8ef8d9b02e549be8649f",
-      "titleZh": "Jev模型：赋予AI代码特性的新模型",
-      "summaryZh": "一位自称ChatGPT联合发明人的人发布名为Jev的新模型，声称通过新训练方法（RLCD）大幅提升速度和降低成本，但明确表示不能生成文本。发帖者认为这是通往AI经济革命的最短路径。",
-      "authorSays": "发帖者称Jev比现有模型快20-200倍，便宜40-400倍，专为决策优化，但明确指出它无法生成文本，未来是代码+AI。",
-      "angle": "建议对比Jev与标准LLM在特定决策任务（如选择链接）上的表现，以验证其声称的“智能”与“无文本生成”之间的权衡。",
+      "contentHash": "6de1bb594b82d25995899a928b6716110f767a0183536cf0e9c6eea9009f6040",
+      "titleZh": "Jev模型：给AI赋予代码属性，主打决策优化",
+      "summaryZh": "一位ChatGPT联合发明人发布了一个名为Jev的新模型，声称其速度更快、更便宜，且专为决策优化。然而，发帖者指出它不能生成文本。项目声称这是通往AI经济革命的最短路径。",
+      "authorSays": "发帖者称Jev是一个新模型，速度提升20-200倍，成本降低40-400倍，专为决策优化，但无法生成文本。",
+      "angle": "建议：对比Jev与标准LLM在决策任务上的速度和成本，并验证其无法生成文本的主张。",
       "level": "中等",
       "category": "技术与研究",
       "relevant": true,
@@ -441,7 +543,7 @@
         "points": 1,
         "comments": 1
       },
-      "collectedAt": "2026-09-15T18:51:17.725000+00:00",
+      "collectedAt": "2026-09-15T19:01:42.311636+00:00",
       "readingStatus": "原帖／摘要已采集",
       "contentHash": "8b28eda18ff3004fc00e82b16194c3fd4b86a708ddc9be71959e065bd99c9900",
       "titleZh": "MyMarkdown：让AI生成的Markdown更易读",
@@ -475,7 +577,7 @@
         "points": 2,
         "comments": 0
       },
-      "collectedAt": "2026-09-15T18:51:17.725000+00:00",
+      "collectedAt": "2026-09-15T19:01:42.311636+00:00",
       "readingStatus": "外链可读文字已获取",
       "contentHash": "e4677ebdf3b6b28f4089377e242202c85975d0268fea38c3992f480871d3c2d9",
       "titleZh": "自主智能体三大定律宣言",
@@ -509,7 +611,7 @@
         "points": 1,
         "comments": 0
       },
-      "collectedAt": "2026-09-15T18:51:17.725000+00:00",
+      "collectedAt": "2026-09-15T19:01:42.311636+00:00",
       "readingStatus": "原帖／摘要已采集",
       "contentHash": "d132a18e6e89167ec388ce98b53ea9c401463ffdfeabc48e2a1f4816503ab75c",
       "titleZh": "Oghmere：禁止AI代写句子的写作教练",
@@ -543,7 +645,7 @@
         "points": 2,
         "comments": 0
       },
-      "collectedAt": "2026-09-15T18:51:17.725000+00:00",
+      "collectedAt": "2026-09-15T19:01:42.311636+00:00",
       "readingStatus": "外链可读文字已获取",
       "contentHash": "b8b884ec5086b8430813dbdfaefb60ec9ea979ca2599bf88426d77b657fbdba1",
       "titleZh": "如何量化AI对软件开发交付速度的影响",
@@ -577,7 +679,7 @@
         "points": 3,
         "comments": 1
       },
-      "collectedAt": "2026-09-15T18:51:17.725000+00:00",
+      "collectedAt": "2026-09-15T19:01:42.311636+00:00",
       "readingStatus": "外链可读文字已获取",
       "contentHash": "086245fa9dd0078ec7b2651dec2826b1a30cd3c63f03ab5f6dd10bac7bc81eb7",
       "titleZh": "仅放缓AI开发不足以避免人类灭绝",
@@ -611,7 +713,7 @@
         "points": 1,
         "comments": 0
       },
-      "collectedAt": "2026-09-15T18:51:17.725000+00:00",
+      "collectedAt": "2026-09-15T19:01:42.311636+00:00",
       "readingStatus": "外链可读文字已获取",
       "originalAuthor": "Arne Rief",
       "contentHash": "6c7f5f4252f74b7167cfd9dc154ad7c211026aaf7607021db34e8b1d79e99b4f",
@@ -646,7 +748,7 @@
         "points": 3,
         "comments": 1
       },
-      "collectedAt": "2026-09-15T18:51:17.725000+00:00",
+      "collectedAt": "2026-09-15T19:01:42.311636+00:00",
       "readingStatus": "原帖／摘要已采集",
       "contentHash": "6a17defd8031bcd620293126d4c60e8a9d2b00637d8ab4983bd7e46de967fcf3",
       "titleZh": "Amika：支持人类与AI智能体协作的云工作站",
@@ -680,7 +782,7 @@
         "points": 1,
         "comments": 1
       },
-      "collectedAt": "2026-09-15T18:51:17.725000+00:00",
+      "collectedAt": "2026-09-15T19:01:42.311636+00:00",
       "readingStatus": "仅标题／外链待核查",
       "originReadError": "HTTP Error 401: HTTP Forbidden",
       "contentHash": "fae4f0e573f9655eb1e1d76ce44987cd6043e90bb82ac854b22e65512eca0e62",
@@ -715,7 +817,7 @@
         "points": 1,
         "comments": 0
       },
-      "collectedAt": "2026-09-15T18:51:17.725000+00:00",
+      "collectedAt": "2026-09-15T19:01:42.311636+00:00",
       "readingStatus": "外链可读文字已获取",
       "originalAuthor": "Dan Kondratyuk",
       "contentHash": "a1d580b04575909e7d970648d61f8770a4ab5bff56b21cf486174be66a89f4b4",
@@ -750,7 +852,7 @@
         "points": 1,
         "comments": 1
       },
-      "collectedAt": "2026-09-15T18:51:17.725000+00:00",
+      "collectedAt": "2026-09-15T19:01:42.311636+00:00",
       "readingStatus": "外链可读文字已获取",
       "originalAuthor": "Brianne Kane, Jeffery DelViscio, Fonda Mwangi, Alli Rodgers, Rachel Feltman, Alex Sugiura",
       "contentHash": "3c9fd3edc3a1654724e01bfb8b66bd77356089612184d1af9b84d11e9ccf3efa",
@@ -785,7 +887,7 @@
         "points": 1,
         "comments": 0
       },
-      "collectedAt": "2026-09-15T18:51:17.725000+00:00",
+      "collectedAt": "2026-09-15T19:01:42.311636+00:00",
       "readingStatus": "仅标题／外链待核查",
       "originReadError": "HTTP Error 403: Forbidden",
       "contentHash": "c0cd138119fcbccb6ba49553a6235d597cf3bda9410818192f1cd1118976f4ee",
@@ -817,10 +919,10 @@
       "authorRole": "HN 发帖者；Show HN 项目归属需核对",
       "sourceRelations": "社区首发／转发，外链原文发布时间未确认",
       "engagement": {
-        "points": 32,
-        "comments": 6
+        "points": 48,
+        "comments": 14
       },
-      "collectedAt": "2026-09-15T18:51:17.725000+00:00",
+      "collectedAt": "2026-09-15T19:01:42.311636+00:00",
       "readingStatus": "外链可读文字已获取",
       "contentHash": "d264341b909fdb1cb7a6b34902c7f5016f1f003d619a1d50010c319730e4dcf2",
       "titleZh": "Google发布Gemini 3.8 Live语音模型，主打实时对话与后台任务执行",
@@ -854,7 +956,7 @@
         "points": 6,
         "comments": 1
       },
-      "collectedAt": "2026-09-15T18:51:17.725000+00:00",
+      "collectedAt": "2026-09-15T19:01:42.311636+00:00",
       "readingStatus": "外链可读文字已获取",
       "contentHash": "860615a7faf276cb866b7aa0c4b014475d61842ce2afd6fa887fa6f9ecc25301",
       "titleZh": "Navier-Stokes案例表明大模型仍缺乏真正的自主性",
@@ -888,7 +990,7 @@
         "points": 1,
         "comments": 0
       },
-      "collectedAt": "2026-09-15T18:51:17.725000+00:00",
+      "collectedAt": "2026-09-15T19:01:42.311636+00:00",
       "readingStatus": "仅标题／外链待核查",
       "originReadError": "[Errno -2] Name or service not known",
       "contentHash": "22f6b1f759967baa9cbd091f269907bdd613c09bc727ecd7f9beb19bef9e9cd2",
@@ -923,7 +1025,7 @@
         "points": 1,
         "comments": 0
       },
-      "collectedAt": "2026-09-15T18:51:17.725000+00:00",
+      "collectedAt": "2026-09-15T19:01:42.311636+00:00",
       "readingStatus": "仅标题／外链待核查",
       "originReadError": "HTTP Error 403: Forbidden",
       "contentHash": "61d99c4b20f416c5c1def7402950f9ec2645bd63f7a34216035ae5df148ad080",
@@ -958,7 +1060,7 @@
         "points": 3,
         "comments": 0
       },
-      "collectedAt": "2026-09-15T18:51:17.725000+00:00",
+      "collectedAt": "2026-09-15T19:01:42.311636+00:00",
       "readingStatus": "原帖／摘要已采集",
       "contentHash": "1daec702603b7b07a5c8fb6b488ba55e42e27fd974841711ce5660e1c8c88b62",
       "titleZh": "HN提问：学习型智能体框架该长什么样？",
@@ -992,15 +1094,15 @@
         "points": 1,
         "comments": 0
       },
-      "collectedAt": "2026-09-15T18:51:17.725000+00:00",
+      "collectedAt": "2026-09-15T19:01:42.311636+00:00",
       "readingStatus": "外链可读文字已获取",
-      "contentHash": "9af248255a79dd15ed8036e2a1c2d24768b145ce7385e2be51723856ccf1e891",
-      "titleZh": "英特尔与Atsign合作，声称边缘AI智能体性能提升超百倍",
-      "summaryZh": "Intel与Atsign合作，声称通过结合硬件加密与身份管理，解决了边缘AI智能体的安全与性能瓶颈。发帖者引用数据称，在智能出租车等场景下，通信性能提升了数千倍。",
-      "authorSays": "发帖者称，通过与Atsign合作，利用Intel硬件加速和端到端加密，解决了边缘AI智能体在分布式环境中的安全风险和性能下降问题，并声称性能提升了8700%。",
-      "angle": "建议：拍摄一段智能体在边缘设备间通信的演示，重点展示加密握手过程，并引用文中提到的性能提升数据，但需注明这是厂商宣称的数据。",
+      "contentHash": "6d00619dad2ba8434647f2a58d6af6890a41a142ec55541c414efdcbb0881a8f",
+      "titleZh": "Intel与Atsign合作，提升边缘AI代理性能",
+      "summaryZh": "Intel与Atsign合作，为边缘AI代理（如自动驾驶出租车）解决加密瓶颈。项目声称使用Agent2Agent标准，性能提升8700%。合作伙伴称这为智能交通中的边缘AI部署提供了安全基础。",
+      "authorSays": "项目介绍称，与Atsign的合作解决了边缘AI代理的加密瓶颈，声称性能提升8700%，并提供了智能交通的安全基础。",
+      "angle": "建议：演示边缘AI代理的加密流程，并核实声称的性能提升数据。",
       "level": "中等",
-      "category": "工具更新",
+      "category": "技术与研究",
       "relevant": true,
       "analysisMethod": "Cloudflare AI 根据可读原文整理，未实测",
       "analysisVersion": "cf-glm-editor-v2",
@@ -1026,7 +1128,7 @@
         "points": 1,
         "comments": 1
       },
-      "collectedAt": "2026-09-15T18:51:17.725000+00:00",
+      "collectedAt": "2026-09-15T19:01:42.311636+00:00",
       "readingStatus": "外链可读文字已获取",
       "originalAuthor": "Bilal Tahir",
       "contentHash": "cf853d551dbb3583571c0167bdf741bb9aee2c2caf07dc0f1ab4971fbe71a9ad",
@@ -1061,7 +1163,7 @@
         "points": 1,
         "comments": 0
       },
-      "collectedAt": "2026-09-15T18:51:17.725000+00:00",
+      "collectedAt": "2026-09-15T19:01:42.311636+00:00",
       "readingStatus": "原帖／摘要已采集",
       "contentHash": "3b0f33fc46c94c63d21e54b83064fbe7a552a99ad3f32c5281085a317490945a",
       "titleZh": "Show HN：Kobra，主打设计质量的Shadcn替代品",
@@ -1095,7 +1197,7 @@
         "points": 3,
         "comments": 1
       },
-      "collectedAt": "2026-09-15T18:51:17.725000+00:00",
+      "collectedAt": "2026-09-15T19:01:42.311636+00:00",
       "readingStatus": "外链可读文字已获取",
       "contentHash": "4dd4ac3d5ecb5d5081ceb283d9117b46a7ae931e926ee26c5194b1ede3308b49",
       "titleZh": "展示HN：DaiDocs，将AI记忆存为纯文本文件",
@@ -1129,7 +1231,7 @@
         "points": 1,
         "comments": 0
       },
-      "collectedAt": "2026-09-15T18:51:17.725000+00:00",
+      "collectedAt": "2026-09-15T19:01:42.311636+00:00",
       "readingStatus": "原帖／摘要已采集",
       "contentHash": "dacf5f389aa820f8b896e36d953b7fa68a8a9bba5be321f8d13e5b6b9ee4683c",
       "titleZh": "展示HN：为代码代理增加本地静态分析能力",
@@ -1163,7 +1265,7 @@
         "points": 5,
         "comments": 1
       },
-      "collectedAt": "2026-09-15T18:51:17.725000+00:00",
+      "collectedAt": "2026-09-15T19:01:42.311636+00:00",
       "readingStatus": "外链可读文字已获取",
       "contentHash": "dac6c8152f7090a2571a68a2d9dda446abee37a9b7e72e46557c51746b18dbba",
       "titleZh": "Google发布Gemini 3.8 Live Extended Thinking音频模型",
@@ -1195,9 +1297,9 @@
       "sourceRelations": "社区首发／转发，外链原文发布时间未确认",
       "engagement": {
         "points": 3,
-        "comments": 5
+        "comments": 6
       },
-      "collectedAt": "2026-09-15T18:51:17.725000+00:00",
+      "collectedAt": "2026-09-15T19:01:42.311636+00:00",
       "readingStatus": "原帖／摘要已采集",
       "contentHash": "a619885e2e947f6fd2addd07a8999ac17a69aaa2cf707fb56f254a3d897087bc",
       "titleZh": "展示HN：AirmailAI，基于浏览器扩展的BYOK聊天应用",
@@ -1231,7 +1333,7 @@
         "points": 2,
         "comments": 0
       },
-      "collectedAt": "2026-09-15T18:51:17.725000+00:00",
+      "collectedAt": "2026-09-15T19:01:42.311636+00:00",
       "readingStatus": "外链可读文字已获取",
       "contentHash": "3f5b991daf3568bb23b67b3ea76850879c4d1e542792396564967006fe170185",
       "titleZh": "EOL框架：预测AI和机器人如何改变2030-2035年的劳动力需求",
@@ -1265,7 +1367,7 @@
         "points": 2,
         "comments": 0
       },
-      "collectedAt": "2026-09-15T18:51:17.725000+00:00",
+      "collectedAt": "2026-09-15T19:01:42.311636+00:00",
       "readingStatus": "外链可读文字已获取",
       "contentHash": "25e1bbd642d56985d858b84b05ba40f69c395837b14b7d0f89d96680b262eb54",
       "titleZh": "AI解决数学问题太快引发争议，数学家担忧理解被忽视",
@@ -1299,7 +1401,7 @@
         "points": 2,
         "comments": 1
       },
-      "collectedAt": "2026-09-15T18:51:17.725000+00:00",
+      "collectedAt": "2026-09-15T19:01:42.311636+00:00",
       "readingStatus": "外链可读文字已获取",
       "contentHash": "153487e1a74a60a4fe5edd0d2c3f4a1b25774b0964a96a96318c4c7351e8a249",
       "titleZh": "专家实测：基于真实创意工作的AI图像与视频模型排名",
@@ -1333,7 +1435,7 @@
         "points": 2,
         "comments": 0
       },
-      "collectedAt": "2026-09-15T18:51:17.725000+00:00",
+      "collectedAt": "2026-09-15T19:01:42.311636+00:00",
       "readingStatus": "外链可读文字已获取",
       "contentHash": "3a0b8d38f4e054fa290fd4f869ff57cda4036e4d988c5b45c839aaab0903cf42",
       "titleZh": "AI行业高管呼吁放缓，AI智能体出现“吹哨”行为",
@@ -1367,10 +1469,19 @@
         "points": 2,
         "comments": 0
       },
-      "collectedAt": "2026-09-15T18:51:17.725000+00:00",
+      "collectedAt": "2026-09-15T19:01:42.311636+00:00",
       "readingStatus": "仅标题／外链待核查",
       "originReadError": "HTTP Error 403: Forbidden",
       "contentHash": "65f402aa17d25066c89f4a4d711f25770dc5673c01feb720bc1320bfb285d388",
+      "titleZh": "AI成为网络安全支出增长的新驱动力",
+      "summaryZh": "目前只取得标题，具体功能或结论待确认。",
+      "authorSays": "目前仅获取标题，尚不能确认作者的完整观点。",
+      "angle": "建议：搜索相关报告或新闻，以获取关于AI如何推动网络安全支出的具体细节。",
+      "level": "入门",
+      "category": "行业讨论",
+      "relevant": true,
+      "analysisMethod": "Cloudflare AI 根据可读原文整理，未实测",
+      "analysisVersion": "cf-glm-editor-v2",
       "sourceExcerpt": ""
     },
     {
@@ -1393,7 +1504,7 @@
         "points": 2,
         "comments": 0
       },
-      "collectedAt": "2026-09-15T18:51:17.725000+00:00",
+      "collectedAt": "2026-09-15T19:01:42.311636+00:00",
       "readingStatus": "原帖／摘要已采集",
       "contentHash": "5c9e8b7401df56440a11f1e9db015b56c05d48e9af55cbb139ae6ea972c44693",
       "titleZh": "Omni开源工作代理项目",
@@ -1427,7 +1538,7 @@
         "points": 2,
         "comments": 0
       },
-      "collectedAt": "2026-09-15T18:51:17.725000+00:00",
+      "collectedAt": "2026-09-15T19:01:42.311636+00:00",
       "readingStatus": "外链可读文字已获取",
       "contentHash": "44cd3679100c7c77ad1a2ab878ad05a169641fc0092ea2f5359e98a8b22f07b2",
       "titleZh": "子代理设计存在缺陷",
@@ -1461,7 +1572,7 @@
         "points": 3,
         "comments": 0
       },
-      "collectedAt": "2026-09-15T18:51:17.725000+00:00",
+      "collectedAt": "2026-09-15T19:01:42.311636+00:00",
       "readingStatus": "外链可读文字已获取",
       "contentHash": "292acbb43611cc721ce86b1f7f605e7aa4ebe29547b398fcd2e9ebb6fdc53e54",
       "titleZh": "AI代理自动分析测试失败模式",
@@ -1495,7 +1606,7 @@
         "points": 2,
         "comments": 0
       },
-      "collectedAt": "2026-09-15T18:51:17.725000+00:00",
+      "collectedAt": "2026-09-15T19:01:42.311636+00:00",
       "readingStatus": "外链可读文字已获取",
       "contentHash": "43847c138092cfe517d931cb34ce575336128dc79d437c9973b1f7ed5a31edb7",
       "titleZh": "AI安全需超越放缓发展速度",
@@ -1508,110 +1619,6 @@
       "analysisMethod": "Cloudflare AI 根据可读原文整理，未实测",
       "analysisVersion": null,
       "sourceExcerpt": "Safety requirements are non-negotiable. They depend on meeting concrete goals, not just adjusting a timeline AI safety requires more than just slowing our pace | Stuart Russell | T"
-    },
-    {
-      "id": "d30a8d3d663aecf443be",
-      "title": "Ask HN: Where is all of the AI coded software?",
-      "url": "https://news.ycombinator.com/item?id=49715361",
-      "author": "wNjdbfm",
-      "publishedAt": "2026-09-15T16:55:08+00:00",
-      "source": "Hacker News · AI",
-      "sourceId": "hn-ai",
-      "region": "海外",
-      "kind": "社区分享",
-      "dateBasis": "社区帖发布时间",
-      "evidence": "已读取公开原帖文字／订阅摘要，未实测产品",
-      "originalUrl": "https://news.ycombinator.com/item?id=49715361",
-      "authorUrl": "https://news.ycombinator.com/user?id=wNjdbfm",
-      "authorRole": "HN 发帖者；Show HN 项目归属需核对",
-      "sourceRelations": "社区首发／转发，外链原文发布时间未确认",
-      "engagement": {
-        "points": 3,
-        "comments": 5
-      },
-      "collectedAt": "2026-09-15T18:51:17.725000+00:00",
-      "readingStatus": "原帖／摘要已采集",
-      "contentHash": "cdf439d653f83db26f08d8a689790cb79524e10f7258d8d98a5fe95e0b353edf",
-      "titleZh": "AI编程软件为何未普及",
-      "summaryZh": "AI编程未带来大量替代传统软件的新兴产品。",
-      "authorSays": "尚未取得足够原文",
-      "angle": "AI编程为何没颠覆传统软件市场",
-      "level": "中等",
-      "category": "商业与获客",
-      "relevant": true,
-      "analysisMethod": "Cloudflare AI 根据可读原文整理，未实测",
-      "analysisVersion": null,
-      "sourceExcerpt": "Like a lot of folks, I'm trying to understand the AI reality vs. the hype cycle. I have my own experiences both using it and seeing it rolled out with a “do more AI” mandate at a h"
-    },
-    {
-      "id": "2bb0d4eae0ac363a5e55",
-      "title": "The AI-as-Normal-Technology view of loss-of-control incidents",
-      "url": "https://news.ycombinator.com/item?id=49715332",
-      "author": "zdw",
-      "publishedAt": "2026-09-15T16:53:24+00:00",
-      "source": "Hacker News · AI",
-      "sourceId": "hn-ai",
-      "region": "海外",
-      "kind": "社区分享",
-      "dateBasis": "社区帖发布时间",
-      "evidence": "已读取公开原帖文字／订阅摘要，未实测产品",
-      "originalUrl": "https://www.normaltech.ai/p/the-ai-as-normal-technology-view",
-      "authorUrl": "https://news.ycombinator.com/user?id=zdw",
-      "authorRole": "HN 发帖者；Show HN 项目归属需核对",
-      "sourceRelations": "社区首发／转发，外链原文发布时间未确认",
-      "engagement": {
-        "points": 1,
-        "comments": 0
-      },
-      "collectedAt": "2026-09-15T18:51:17.725000+00:00",
-      "readingStatus": "外链可读文字已获取",
-      "originalAuthor": "Sayash Kapoor",
-      "contentHash": "426e89e2065d2536fafe5d5357a09250617f2eacbbd31dfd3ccbd1c08f34f45e",
-      "titleZh": "AI失控事件新视角",
-      "summaryZh": "将AI失控事件视为普通技术问题而非安全危机。",
-      "authorSays": "尚未取得足够原文",
-      "angle": "AI失控是技术问题还是安全危机",
-      "level": "进阶",
-      "category": "技术与研究",
-      "relevant": true,
-      "analysisMethod": "Cloudflare AI 根据可读原文整理，未实测",
-      "analysisVersion": null,
-      "sourceExcerpt": "A middle ground between the cybersecurity and AI safety communities The AI-as-Normal-Technology view of loss of control incidents Subscribe Sign in The AI-as-Normal-Technology view"
-    },
-    {
-      "id": "5416537f0d0dfced17d2",
-      "title": "What happens to engineers when AI writes all the code?",
-      "url": "https://news.ycombinator.com/item?id=49715305",
-      "author": "inferhaven",
-      "publishedAt": "2026-09-15T16:51:02+00:00",
-      "source": "Hacker News · AI",
-      "sourceId": "hn-ai",
-      "region": "海外",
-      "kind": "社区分享",
-      "dateBasis": "社区帖发布时间",
-      "evidence": "已读取公开原帖文字／订阅摘要，未实测产品",
-      "originalUrl": "https://newsletter.posthog.com/p/if-ai-writes-all-the-code-whats-left",
-      "authorUrl": "https://news.ycombinator.com/user?id=inferhaven",
-      "authorRole": "HN 发帖者；Show HN 项目归属需核对",
-      "sourceRelations": "社区首发／转发，外链原文发布时间未确认",
-      "engagement": {
-        "points": 1,
-        "comments": 0
-      },
-      "collectedAt": "2026-09-15T18:51:17.725000+00:00",
-      "readingStatus": "外链可读文字已获取",
-      "originalAuthor": "Ian Vanagas",
-      "contentHash": "3392127ddc3d3b493e431561f2edaaac312ef7f547c3c30f0a8a5deb24661620",
-      "titleZh": "AI写代码工程师角色变化",
-      "summaryZh": "AI写代码时代，工程师角色转向监控与方向设定，需处理信息并制定策略。",
-      "authorSays": "尚未取得足够原文",
-      "angle": "AI时代工程师如何转型？",
-      "level": "中等",
-      "category": "行业讨论",
-      "relevant": true,
-      "analysisMethod": "Cloudflare AI 根据可读原文整理，未实测",
-      "analysisVersion": null,
-      "sourceExcerpt": "Engineers aren’t going away. They'll be piloting the product loop. What happens to engineers when AI writes all the code? Subscribe Sign in What happens to engineers when AI writes"
     },
     {
       "id": "92eac5baefd824d1f5cb",
@@ -1628,7 +1635,7 @@
       "originalUrl": "https://community.n8n.io/t/anthropic-chat-node-failing-immediately-with-request-timeout/313863",
       "authorRole": "订阅源署名",
       "authorUrl": "",
-      "collectedAt": "2026-09-15T18:51:17.725000+00:00",
+      "collectedAt": "2026-09-15T19:01:42.311636+00:00",
       "readingStatus": "原帖／摘要已采集",
       "contentHash": "1b33fb22841b79cb0f0bc572524e703309e675987b66df527aef5cb1bbc290b6",
       "titleZh": "Anthropic Chat节点超时问题",
@@ -1662,18 +1669,18 @@
         "points": 2,
         "comments": 0
       },
-      "collectedAt": "2026-09-15T18:51:17.725000+00:00",
+      "collectedAt": "2026-09-15T19:01:42.311636+00:00",
       "readingStatus": "外链可读文字已获取",
       "contentHash": "a5d2989e701073f67d9b46dccf69b1f00a5285c54daf2e8bebaebec2eecdde60",
-      "titleZh": "查询接口影响AI诊断",
-      "summaryZh": "不同查询接口影响AI根因分析效果，GreptimeDB表现更优。",
-      "authorSays": "尚未取得足够原文",
-      "angle": "AI诊断效率如何提升？",
-      "level": "进阶",
+      "titleZh": "同一数据源不同查询接口，RCA 智能体诊断结果差异显著",
+      "summaryZh": "GreptimeDB 发布基准测试，对比单一接口与多接口查询对智能体根因分析的影响，称单一接口能减少错误诊断并降低成本。",
+      "authorSays": "作者称在固定模型和提示词下，使用 GreptimeDB 单一接口比分别调用 Prometheus、Loki、Tempo 能减少 40% 的错误诊断，且输入 token 减半。",
+      "angle": "建议：对比展示单一数据库查询和多数据库查询的提示词长度差异，并引用测试数据说明诊断准确率的变化。",
+      "level": "中等",
       "category": "技术与研究",
       "relevant": true,
       "analysisMethod": "Cloudflare AI 根据可读原文整理，未实测",
-      "analysisVersion": null,
+      "analysisVersion": "cf-glm-editor-v2",
       "sourceExcerpt": "Agent RCA Bench holds the model and prompt fixed and changes only the query interface: 504 end-to-end investigations across six models. Querying GreptimeDB instead of Prometheus, L"
     },
     {
@@ -1694,18 +1701,18 @@
       "engagement": {
         "comments": 0
       },
-      "collectedAt": "2026-09-15T18:51:17.725000+00:00",
+      "collectedAt": "2026-09-15T19:01:42.311636+00:00",
       "readingStatus": "原帖／摘要已采集",
       "contentHash": "f1dff3cf5ad6e2f2270c83edd7062bac865b161fcb686b65714d47670bf4011e",
-      "titleZh": "免费AI模型逐渐消失",
-      "summaryZh": "分享发现免费AI模型越来越少，多数已无法使用。",
-      "authorSays": "作者指出多个免费AI模型已停止服务，未来可能进入付费时代。",
-      "angle": "建议关注AI服务的商业化趋势",
+      "titleZh": "免费可用的 AI LLM 越来越少，付费时代将至",
+      "summaryZh": "V2EX 用户抱怨市面上免费实用的 AI 模型越来越少，列举 openCode、openRouter 等项目已停止服务，认为明年将进入付费时代。",
+      "authorSays": "发帖者认为 openCode、openRouter、小红书 dots 和 ollama 等免费项目已“阵亡”，明年将进入充钱时代。",
+      "angle": "建议：盘点当前主流免费 AI 模型（如 DeepSeek、Kimi 等）的可用性，对比发帖者提到的已停止服务项目，制作“免费 AI 现状”盘点视频。",
       "level": "入门",
       "category": "行业讨论",
       "relevant": true,
       "analysisMethod": "Cloudflare AI 根据可读原文整理，未实测",
-      "analysisVersion": null,
+      "analysisVersion": "cf-glm-editor-v2",
       "sourceExcerpt": "模型很多,但基本都不实用,openCode 已阵亡,openRouter 已阵亡,小红书 dots 已阵亡,ollma 已阵亡,顶多明年就要进入充钱 ai 时代"
     },
     {
@@ -1723,18 +1730,18 @@
       "originalUrl": "https://huggingface.co/blog/ibm-research/altk-evolve-consistency",
       "authorRole": "订阅源署名",
       "authorUrl": "",
-      "collectedAt": "2026-09-15T18:51:17.725000+00:00",
+      "collectedAt": "2026-09-15T19:01:42.311636+00:00",
       "readingStatus": "外链可读文字已获取",
       "contentHash": "aeda6fba7a1cdafd7e28bcfe2de55a5a1f76060abd167285610cabd6f138883d",
-      "titleZh": "代理任务一致性挑战",
-      "summaryZh": "讨论代理在重复任务中表现不一致的问题及解决方案。",
-      "authorSays": "作者指出代理在重复任务中可能失败，提出使用一致性指南提高可靠性。",
-      "angle": "建议研究代理任务的一致性优化方法",
-      "level": "中等",
+      "titleZh": "智能体在排练中表现完美，实际运行却可能失败？",
+      "summaryZh": "IBM 研究人员指出智能体在测试中表现不稳定，平均成功率掩盖了任务一致性差的问题，提出通过一致性分析工具和指南来提升可靠性。",
+      "authorSays": "作者称大多数基准测试只看平均成功率，忽略了任务一致性，并介绍了一致性分析工具，能通过重采样轨迹找到易出错点，从而将一致性差距减半。",
+      "angle": "建议：演示智能体在相同任务中多次运行结果不一致的场景，并展示如何利用一致性分析工具优化提示词或决策逻辑。",
+      "level": "进阶",
       "category": "技术与研究",
       "relevant": true,
       "analysisMethod": "Cloudflare AI 根据可读原文整理，未实测",
-      "analysisVersion": null,
+      "analysisVersion": "cf-glm-editor-v2",
       "sourceExcerpt": "A Blog post by IBM Research on Hugging Face Your Agent Aced the Task. Will It Do It Again? Back to Articles Your Agent Aced the Task. Will It Do It Again? Enterprise Article Publis"
     },
     {
@@ -1757,18 +1764,18 @@
         "points": 3,
         "comments": 0
       },
-      "collectedAt": "2026-09-15T18:51:17.725000+00:00",
+      "collectedAt": "2026-09-15T19:01:42.311636+00:00",
       "readingStatus": "外链可读文字已获取",
       "contentHash": "57de820a4f605289520f3f49d3afb8ada2de6b8c990d30eb3f20ff376395f1c9",
-      "titleZh": "Claude Meter – macOS Claude使用监控工具",
-      "summaryZh": "Claude Meter是一款macOS菜单栏工具，实时监控Claude的使用限额，显示会话和周限额的使用情况及倒计时。",
-      "authorSays": "尚未取得足够原文",
-      "angle": "展示如何高效管理AI使用限额",
+      "titleZh": "macOS 顶部菜单栏显示 Claude 使用量限制的工具",
+      "summaryZh": "发帖者开发了一款 macOS 顶部菜单栏工具，显示 Claude 的会话和周限额使用情况；通过读取 Claude 网站的未公开接口来获取数据，声称无账号无追踪，但依赖未公开接口存在失效风险。",
+      "authorSays": "发帖者称该工具通过隐藏的 WebKit 视图读取 Claude 的认证接口来获取使用数据，仅发送版本号和匿名 ID 进行更新检查，不收集使用分析，但警告若 Anthropic 修改接口可能会失效。",
+      "angle": "建议：录制屏幕演示菜单栏显示的绿色到红色变化，并展示悬停查看详细数据的过程，最后提及该工具依赖未公开接口可能随时失效的风险，避免过度宣传其稳定性。",
       "level": "入门",
-      "category": "个人产品",
+      "category": "工具更新",
       "relevant": true,
       "analysisMethod": "Cloudflare AI 根据可读原文整理，未实测",
-      "analysisVersion": null,
+      "analysisVersion": "cf-glm-editor-v2",
       "sourceExcerpt": "Tracks the Claude Token used directly on the Menu bar. - sanchitkd/claude-meter GitHub - sanchitkd/claude-meter: Tracks the Claude Token used directly on the Menu bar. · GitHub Ski"
     },
     {
@@ -1791,48 +1798,19 @@
         "points": 4,
         "comments": 0
       },
-      "collectedAt": "2026-09-15T18:51:17.725000+00:00",
+      "collectedAt": "2026-09-15T19:01:42.311636+00:00",
       "readingStatus": "原帖／摘要已采集",
       "contentHash": "507d1c228596266acbdbb85510795ac2af9c782feca918d65ea6a81cd7e1e771",
-      "titleZh": "Eulix – 大型代码库导航工具",
-      "summaryZh": "Eulix是一款用于导航大型代码库的工具，通过解析代码结构和语义检索快速定位相关代码，支持本地运行和开源。",
-      "authorSays": "尚未取得足够原文",
-      "angle": "提升代码搜索效率的利器",
-      "level": "进阶",
-      "category": "技术与研究",
-      "relevant": true,
-      "analysisMethod": "Cloudflare AI 根据可读原文整理，未实测",
-      "analysisVersion": null,
-      "sourceExcerpt": "Hey I've been working on Eulix, a tool for navigating large codebases. It parses a repository into symbols, call graphs and other structural information, then combines that with ke"
-    },
-    {
-      "id": "a3f26161ff19a1df49a0",
-      "title": "The problem of duplicate records in Zite",
-      "url": "https://community.n8n.io/t/the-problem-of-duplicate-records-in-zite/313850",
-      "author": "Ali4",
-      "publishedAt": "2026-09-15T15:12:01+00:00",
-      "source": "n8n · 社区",
-      "sourceId": "n8n",
-      "region": "海外",
-      "kind": "社区实践",
-      "dateBasis": "原帖发布",
-      "evidence": "已读取公开原帖文字／订阅摘要，未实测产品",
-      "originalUrl": "https://community.n8n.io/t/the-problem-of-duplicate-records-in-zite/313850",
-      "authorRole": "订阅源署名",
-      "authorUrl": "",
-      "collectedAt": "2026-09-15T18:51:17.725000+00:00",
-      "readingStatus": "原帖／摘要已采集",
-      "contentHash": "15fe534ff54df752d118a6ad0d9520fdf77ee3ad934f006bbf05a69e92db7ff4",
-      "titleZh": "Zite重复记录问题",
-      "summaryZh": "用户反馈Zite在使用过程中出现重复记录问题，可能与节点字段设置有关，但具体原因需进一步排查。",
-      "authorSays": "尚未取得足够原文",
-      "angle": "解决Zite重复记录的疑问",
+      "titleZh": "本地代码库导航工具 Eulix，号称能秒级检索大型项目",
+      "summaryZh": "发帖者推出开源工具 Eulix，用于在本地解析大型代码库的结构信息，结合关键词和语义检索来查找代码；据称在 OpenStack 上测试时，查询能在一秒内返回结果，但尚未验证超大规模代码库的可行性。",
+      "authorSays": "发帖者称 Eulix 可以直接从结构化代码数据中回答查询，无需 LLM，并在 OpenStack 上测试了 PCI passthrough 调度查询，结果在 1 秒内返回，但承认因缺乏 GPU 无法测试 3000 万行代码库。",
+      "angle": "建议：演示在本地加载一个开源项目（如 OpenStack），输入一个复杂查询（如“PCI 透传调度”），展示工具如何快速定位相关代码片段，并说明该工具目前仅支持本地运行。",
       "level": "中等",
-      "category": "行业讨论",
+      "category": "工具更新",
       "relevant": true,
       "analysisMethod": "Cloudflare AI 根据可读原文整理，未实测",
-      "analysisVersion": null,
-      "sourceExcerpt": "Hi everyone, I’m having an issue with duplicate record creation in Zite. Here is a screenshot of the workflow, which shows that only a single record is being created. So, is the pr"
+      "analysisVersion": "cf-glm-editor-v2",
+      "sourceExcerpt": "Hey I've been working on Eulix, a tool for navigating large codebases. It parses a repository into symbols, call graphs and other structural information, then combines that with ke"
     },
     {
       "id": "407fde7d7ca8b5df79ee",
@@ -1852,18 +1830,18 @@
       "engagement": {
         "comments": 0
       },
-      "collectedAt": "2026-09-15T18:51:17.725000+00:00",
+      "collectedAt": "2026-09-15T19:01:42.311636+00:00",
       "readingStatus": "原帖／摘要已采集",
       "contentHash": "51358d6866caf0c3e7c770e27c793d130027e9057a3190e9180a12447e34c987",
-      "titleZh": "WebRTC聊天室支持Agent协作",
-      "summaryZh": "WebRTC聊天室新增Agent协作功能，允许不同AI助手在临时房间内协作完成任务，无需共享文件系统。",
-      "authorSays": "尚未取得足够原文",
-      "angle": "探索AI助手协作新方式",
-      "level": "进阶",
-      "category": "商业与获客",
+      "titleZh": "WebRTC 聊天室支持 Agent 跨机器协作，无需共享文件系统",
+      "summaryZh": "作者分享其 WebRTC 语音聊天室项目 free4.chat 的更新，现在允许 Codex、Claude 等 Agent 加入房间进行跨机器协作，无需共享文件系统，Agent 保留本地模型和密钥。",
+      "authorSays": "作者称现在可以让 Codex、Claude 等 Agent 加入房间，两个 Agent 可以在临时房间内互相发现、发任务、传文件，Agent 的模型和密钥仍留在本地，浏览器或终端均可使用。",
+      "angle": "建议：录制两个不同终端（如 Mac 和笔记本）上的 Agent 加入同一个房间，演示它们互相发送任务并返回结果的过程，强调 Agent 的数据和密钥始终留在本地。",
+      "level": "中等",
+      "category": "玩法与案例",
       "relevant": true,
       "analysisMethod": "Cloudflare AI 根据可读原文整理，未实测",
-      "analysisVersion": null,
+      "analysisVersion": "cf-glm-editor-v2",
       "sourceExcerpt": "之前在 V2EX 发过几次 free4.chat ，最早就是一个不用注册、打开链接就能聊的 WebRTC 语音聊天室。 上次更新还是给房间里塞了一个 AI 助手。最近又折腾了不少，现在方向有点不一样了：不再自己托管一个 AI Bot ，而是让你本来就在用的 Agent 直接进房间。 目前 Codex 、Claude 、Pi 、Hermes 、OpenCode"
     },
     {
@@ -1884,7 +1862,7 @@
       "engagement": {
         "comments": 2
       },
-      "collectedAt": "2026-09-15T18:51:17.725000+00:00",
+      "collectedAt": "2026-09-15T19:01:42.311636+00:00",
       "readingStatus": "原帖／摘要已采集",
       "contentHash": "2ada96251f8f26f97fe724888c898f5095ca522fcf30fcce8450ffc3cc59d8a2",
       "titleZh": "极简AI信息流服务",
@@ -1918,7 +1896,7 @@
         "points": 4,
         "comments": 1
       },
-      "collectedAt": "2026-09-15T18:51:17.725000+00:00",
+      "collectedAt": "2026-09-15T19:01:42.311636+00:00",
       "readingStatus": "原帖／摘要已采集",
       "contentHash": "ac6bdf8967d17904dffc9c3832e599875364bb20d2565f79017ae400e29cfde4",
       "titleZh": "AI为何总选17？",
@@ -1952,7 +1930,7 @@
         "points": 14,
         "comments": 5
       },
-      "collectedAt": "2026-09-15T18:51:17.725000+00:00",
+      "collectedAt": "2026-09-15T19:01:42.311636+00:00",
       "readingStatus": "外链可读文字已获取",
       "contentHash": "9ba3a329fb6519a604050bec2ba07ffd384fcfb0898db09b5ea2a783f96e8747",
       "titleZh": "单提示解除大模型对齐",
@@ -1984,12 +1962,12 @@
       "sourceRelations": "社区首发／转发，外链原文发布时间未确认",
       "engagement": {
         "points": 21,
-        "comments": 23
+        "comments": 24
       },
-      "collectedAt": "2026-09-15T18:51:17.725000+00:00",
+      "collectedAt": "2026-09-15T19:01:42.311636+00:00",
       "readingStatus": "外链可读文字已获取",
       "originalAuthor": "Axel Kannenberg",
-      "contentHash": "7a138d486e687d175baf5bd2ec22e6749421dff5d03870ca3c0bf2ec5a62d332",
+      "contentHash": "f0b1c53fa60974157f6721729bab7ae8e880c6a0a2727cc84eccf0686a55ccf5",
       "sourceExcerpt": "According to a survey, German companies rely almost exclusively on AI models and services from the USA. Providers from China and Europe have little relevance. US AI dominates compa"
     },
     {
@@ -2012,7 +1990,7 @@
         "points": 2,
         "comments": 0
       },
-      "collectedAt": "2026-09-15T18:51:17.725000+00:00",
+      "collectedAt": "2026-09-15T19:01:42.311636+00:00",
       "readingStatus": "原帖／摘要已采集",
       "contentHash": "ab478436dfab79b0ff58435e174fe9b1320f50651b9b4cef33ebd2e0cd3ad9fe",
       "titleZh": "8位游戏教学C程序漏洞利用",
@@ -2044,7 +2022,7 @@
       "engagement": {
         "comments": 0
       },
-      "collectedAt": "2026-09-15T18:51:17.725000+00:00",
+      "collectedAt": "2026-09-15T19:01:42.311636+00:00",
       "readingStatus": "原帖／摘要已采集",
       "contentHash": "2d6460bc8a28171b2e3d0e792499ecaf3cbd7a30a23c59a220aec800b7216c75",
       "titleZh": "让AI写视频的描述语言",
@@ -2073,35 +2051,10 @@
       "originalUrl": "https://community.n8n.io/t/how-basic-data-redaction-works/313837",
       "authorRole": "订阅源署名",
       "authorUrl": "",
-      "collectedAt": "2026-09-15T18:51:17.725000+00:00",
+      "collectedAt": "2026-09-15T19:01:42.311636+00:00",
       "readingStatus": "原帖／摘要已采集",
       "contentHash": "4c8acbd25f969950b25ca4746c282bf13e4e90a961f6903941262771ea07a783",
       "sourceExcerpt": "Hey there, I am experiencing something that appears to me like a bug and wanted to ask if its expected or how data redaction is supposed to work in this scenario. Despite not havin"
-    },
-    {
-      "id": "4506b12618039d3583d0",
-      "title": "How to process incoming call audio on Android / iOS?",
-      "url": "https://news.ycombinator.com/item?id=49712493",
-      "author": "vivzkestrel",
-      "publishedAt": "2026-09-15T13:48:10+00:00",
-      "source": "Hacker News · LLM",
-      "sourceId": "hn-llm",
-      "region": "海外",
-      "kind": "社区分享",
-      "dateBasis": "社区帖发布时间",
-      "evidence": "已读取公开原帖文字／订阅摘要，未实测产品",
-      "originalUrl": "https://news.ycombinator.com/item?id=49712493",
-      "authorUrl": "https://news.ycombinator.com/user?id=vivzkestrel",
-      "authorRole": "HN 发帖者；Show HN 项目归属需核对",
-      "sourceRelations": "社区首发／转发，外链原文发布时间未确认",
-      "engagement": {
-        "points": 2,
-        "comments": 0
-      },
-      "collectedAt": "2026-09-15T18:51:17.725000+00:00",
-      "readingStatus": "原帖／摘要已采集",
-      "contentHash": "710241cfb868e3388cd9bf4bf15b20d2232790fee361db25ab9e339e30414db1",
-      "sourceExcerpt": "- use case is blocking spam calls - when an incoming call arrives, the caller s audio is taken in real time and processed through an llm based on questions set by the user - for ex"
     },
     {
       "id": "1b5a8d9db6b7423ffffe",
@@ -2121,7 +2074,7 @@
       "engagement": {
         "comments": 1
       },
-      "collectedAt": "2026-09-15T18:51:17.725000+00:00",
+      "collectedAt": "2026-09-15T19:01:42.311636+00:00",
       "readingStatus": "原帖／摘要已采集",
       "contentHash": "eb63c614fe13ffe1564c86ae63f2335fcdc4f548c1c17d1cd92acf25902f9800",
       "titleZh": "AI与物理世界互动思考",
@@ -2150,7 +2103,7 @@
       "originalUrl": "https://community.n8n.io/t/built-a-free-b2b-lead-enrichment-tool-with-n8n-50-off-today/313836",
       "authorRole": "订阅源署名",
       "authorUrl": "",
-      "collectedAt": "2026-09-15T18:51:17.725000+00:00",
+      "collectedAt": "2026-09-15T19:01:42.311636+00:00",
       "readingStatus": "原帖／摘要已采集",
       "contentHash": "48f60f670d244703492e8a050aeb9a36ae14bb76c61f7f6aad215feac4a91134",
       "titleZh": "n8n构建B2B线索增强工具 50%折扣",
@@ -2182,7 +2135,7 @@
       "engagement": {
         "comments": 0
       },
-      "collectedAt": "2026-09-15T18:51:17.725000+00:00",
+      "collectedAt": "2026-09-15T19:01:42.311636+00:00",
       "readingStatus": "原帖／摘要已采集",
       "contentHash": "cce8acde143cd19940aa114281e086d099e7a43ad70c2669f21e4715770f3277",
       "titleZh": "三指查词工具支持多平台",
@@ -2214,7 +2167,7 @@
       "engagement": {
         "comments": 1
       },
-      "collectedAt": "2026-09-15T18:51:17.725000+00:00",
+      "collectedAt": "2026-09-15T19:01:42.311636+00:00",
       "readingStatus": "原帖／摘要已采集",
       "contentHash": "8f038cbfc793d9d635c8a3d17b828cdcf1c0be6219e97f5b3d9fc23523f1a846",
       "titleZh": "虎扑论坛伪装成Codex脚本",
@@ -2243,7 +2196,7 @@
       "originalUrl": "https://community.n8n.io/t/gemini-node-cannot-read-properties-of-undefined-reading-flatmap/313825",
       "authorRole": "订阅源署名",
       "authorUrl": "",
-      "collectedAt": "2026-09-15T18:51:17.725000+00:00",
+      "collectedAt": "2026-09-15T19:01:42.311636+00:00",
       "readingStatus": "原帖／摘要已采集",
       "contentHash": "8a907e789d33e23f254719d48ffc89caf95c680719f85a4f38931ae73e8abf19",
       "sourceExcerpt": "Describe the problem/error/question I’m on a free tier for Gemini API so I I’m trying to limit the API requests. My workflow reads a csv and aggregate 3 rows from it and then sends"
@@ -2266,7 +2219,7 @@
       "engagement": {
         "comments": 0
       },
-      "collectedAt": "2026-09-15T18:51:17.725000+00:00",
+      "collectedAt": "2026-09-15T19:01:42.311636+00:00",
       "readingStatus": "原帖／摘要已采集",
       "contentHash": "164b8405c3a2ba4f23bc6393dad87d95ee6d9149157abcec21aebfb01c659ae7",
       "sourceExcerpt": "防止大家错过我这个安卓软件，就再发一次。 一个免 root 的安卓神器，它支持很多功能。 1 、比如它可以在没有 ROOT 的情况下，并且，在 ADB 都无法卸载的情况下，给你卸载掉国产定制 UI 的浏览器、快应用、负一屏、小游戏、自带的 AI 助手、软件安装器扫描件等广告毒瘤软件。 2 、它还支持在安卓 10 以下的系统版本里，禁用掉某个应用的传感器权限，"
@@ -2289,7 +2242,7 @@
       "engagement": {
         "comments": 6
       },
-      "collectedAt": "2026-09-15T18:51:17.725000+00:00",
+      "collectedAt": "2026-09-15T19:01:42.311636+00:00",
       "readingStatus": "原帖／摘要已采集",
       "contentHash": "992f0210157f612943516fee7ff7c5d892577ce3dfa384e22cfb9e82627a7c51",
       "sourceExcerpt": "开源仓库地址： https://github.com/eskim2001/dshcloud 自托管的多用户、多实例平台，用户数据持久化 ## 起源 最近用 dsh 创造模式用的很多，经常就把 dsh 改造成一个完全不同的 app 了，这时候要分享给不太会用的朋友比较麻烦，就想到了把这个部署到云上。没考虑现有的方案主要是第二个问题，dsh 版本更新的很快，希望"
@@ -2309,7 +2262,7 @@
       "originalUrl": "https://community.n8n.io/t/lead-intake-template-with-validation-deduplication-and-data-table-storage/313802",
       "authorRole": "订阅源署名",
       "authorUrl": "",
-      "collectedAt": "2026-09-15T18:51:17.725000+00:00",
+      "collectedAt": "2026-09-15T19:01:42.311636+00:00",
       "readingStatus": "原帖／摘要已采集",
       "contentHash": "d9851f77414dab931ba80ab197841ff924ed2a2168ebf4c15636919c50dae756",
       "sourceExcerpt": "I built this workflow to prevent duplicate lead submissions before they reach a CRM. It receives lead data through a webhook, validates and normalizes the fields, then uses an idem"
@@ -2329,7 +2282,7 @@
       "originalUrl": "https://community.n8n.io/t/is-there-an-api-to-fetch-the-whitelist-ip-address-list/313794",
       "authorRole": "订阅源署名",
       "authorUrl": "",
-      "collectedAt": "2026-09-15T18:51:17.725000+00:00",
+      "collectedAt": "2026-09-15T19:01:42.311636+00:00",
       "readingStatus": "原帖／摘要已采集",
       "contentHash": "4add5979ba5008d9965fff69625f7c33b5043970e69b9c81cd2795d65edfca65",
       "titleZh": "n8n获取白名单IP地址API",
@@ -2358,51 +2311,19 @@
       "originalUrl": "https://community.n8n.io/t/what-if-your-business-could-automatically-keep-an-eye-on-linkedin-conversations/313773",
       "authorRole": "订阅源署名",
       "authorUrl": "",
-      "collectedAt": "2026-09-15T18:51:17.725000+00:00",
+      "collectedAt": "2026-09-15T19:01:42.311636+00:00",
       "readingStatus": "原帖／摘要已采集",
       "contentHash": "a75d8695b59f43de16b419e2323fdb8774e870ca2833363e8ee14a689bc9b45c",
-      "titleZh": "LinkedIn自动化监控业务对话",
-      "summaryZh": "利用n8n构建自动化工作流，实时监控LinkedIn相关话题和潜在客户动态。",
-      "authorSays": "作者认为可以通过n8n实现LinkedIn自动化监控",
-      "angle": "建议展示LinkedIn自动化监控案例",
+      "titleZh": "用n8n自动监控LinkedIn对话，帮业务找线索",
+      "summaryZh": "n8n社区用户开发了一个自动化工作流，声称能自动追踪LinkedIn上的相关标签并展示新帖子，以替代手动搜索。该工作流旨在作为实时社交监听工具，并将发现的内容输入下游AI流程。",
+      "authorSays": "作者称该工作流可替代重复的手动搜索，帮助业务保持对相关话题的领先地位，并能将发现的内容连接到现有自动化栈，用于筛选、AI分析、CRM路由或个性化跟进。",
+      "angle": "建议：展示工作流如何抓取特定标签并自动展示新帖子，随后演示如何将这些帖子输入AI工具进行分析或筛选，以证明自动化社交监听的实际效果。",
       "level": "中等",
-      "category": "商业与获客",
+      "category": "工具更新",
       "relevant": true,
       "analysisMethod": "Cloudflare AI 根据可读原文整理，未实测",
-      "analysisVersion": null,
+      "analysisVersion": "cf-glm-editor-v2",
       "sourceExcerpt": "I’ve been working on an automation that helps businesses track relevant LinkedIn hashtags and surface fresh posts automatically . Instead of manually searching LinkedIn again and a"
-    },
-    {
-      "id": "7369e663f3c119c64ff3",
-      "title": "忍不住吐槽一下阿里云网盘",
-      "url": "https://www.v2ex.com/t/1242180",
-      "author": "SeAl80s",
-      "publishedAt": "2026-09-15T07:59:20+00:00",
-      "source": "V2EX · 分享发现",
-      "sourceId": "v2ex-share",
-      "region": "国内",
-      "kind": "社区分享",
-      "dateBasis": "原帖发布",
-      "evidence": "已读取公开原帖文字／订阅摘要，未实测产品",
-      "originalUrl": "https://www.v2ex.com/t/1242180",
-      "authorUrl": "https://www.v2ex.com/u/SeAl80s",
-      "authorRole": "原帖作者",
-      "engagement": {
-        "comments": 17
-      },
-      "collectedAt": "2026-09-15T18:51:17.725000+00:00",
-      "readingStatus": "原帖／摘要已采集",
-      "contentHash": "83b988a7e86bab9cc3cf639d410cef6a3b6edf47d79e930475e7e73315524932",
-      "titleZh": "吐槽阿里云网盘重复文件问题",
-      "summaryZh": "用户反映阿里云网盘上传视频后出现大量重复文件，占用过多存储空间。",
-      "authorSays": "用户批评阿里云网盘存在故意占用存储空间的问题",
-      "angle": "建议讨论云存储服务数据安全问题",
-      "level": "入门",
-      "category": "个人产品",
-      "relevant": true,
-      "analysisMethod": "Cloudflare AI 根据可读原文整理，未实测",
-      "analysisVersion": null,
-      "sourceExcerpt": "在使用阿里网盘的时候出现了这样的情况：有一批小视频，每个 3-5 分钟，每个文件大概 100M-200M 左右，数量大概 1200 个，文件总大小 199G ，不到 200G 。但是，上传的阿里云网盘后，显示总容量占用了 645G ，并且发现不同的视频均出现了数量不等的重复重复情况，且文件名后有明显的（ 1 ）,（ 2 ）的标识，标记重复次数，有的文件只存在"
     },
     {
       "id": "14336f7ca56961d502e6",
@@ -2419,18 +2340,18 @@
       "originalUrl": "https://github.com/ollama/ollama/releases/tag/v0.34.1",
       "authorRole": "订阅源署名",
       "authorUrl": "",
-      "collectedAt": "2026-09-15T18:51:17.725000+00:00",
+      "collectedAt": "2026-09-15T19:01:42.311636+00:00",
       "readingStatus": "原帖／摘要已采集",
       "contentHash": "53452778382f3564ed5684501089fdf1289f0eada4c48a240fcef714a9f21849",
-      "titleZh": "Ollama v0.34.1版本更新",
-      "summaryZh": "Ollama发布v0.34.1版本，更新了入门指南文档。",
-      "authorSays": "尚未取得足够原文",
-      "angle": "建议关注Ollama文档更新动态",
+      "titleZh": "Ollama v0.34.1 更新",
+      "summaryZh": "目前仅获取标题，具体功能或结论待确认。",
+      "authorSays": "目前仅获取标题，尚不能确认作者的完整观点。",
+      "angle": "建议：查看Ollama官网或GitHub仓库，确认v0.34.1版本的具体更新内容，特别是文档刷新是否涉及模型兼容性或使用方式的变化。",
       "level": "入门",
       "category": "工具更新",
       "relevant": true,
       "analysisMethod": "Cloudflare AI 根据可读原文整理，未实测",
-      "analysisVersion": null,
+      "analysisVersion": "cf-glm-editor-v2",
       "sourceExcerpt": "docs: refresh getting started guides ( #18450 )"
     },
     {
@@ -2448,18 +2369,18 @@
       "originalUrl": "https://github.com/ollama/ollama/releases/tag/v0.34.1-rc2",
       "authorRole": "订阅源署名",
       "authorUrl": "",
-      "collectedAt": "2026-09-15T18:51:17.725000+00:00",
+      "collectedAt": "2026-09-15T19:01:42.311636+00:00",
       "readingStatus": "原帖／摘要已采集",
       "contentHash": "968c520218b5750e22b251aa76b81338d37ad1d9c9278e7fff1cbc92c553dc94",
-      "titleZh": "Ollama v0.34.1 更新",
-      "summaryZh": "Ollama发布v0.34.1版本，优化了模型选择器间距、内存管理及令牌重复限制等功能。",
-      "authorSays": "尚未取得足够原文",
-      "angle": "建议关注AI模型优化细节",
+      "titleZh": "Ollama v0.34.1 版本更新日志",
+      "summaryZh": "Ollama官方更新日志显示v0.34.1版本修复了ChatGPT模型选择器间距、清理MLX缓存快照、调整Token重复限制等细节，并更新了底层MLX和llama.cpp库。",
+      "authorSays": "作者称该版本修复了模型选择器布局问题，优化了MLX模型的内存管理和缓存清理机制，提高了Token重复限制，并关闭了Gemma3n投影器在CPU上的使用。",
+      "angle": "建议：对比v0.34.0和v0.34.1在运行特定模型（如Gemma或MLX模型）时的内存占用变化，或测试修复后的模型选择器是否不再出现间距错乱的问题。",
       "level": "中等",
       "category": "工具更新",
       "relevant": true,
       "analysisMethod": "Cloudflare AI 根据可读原文整理，未实测",
-      "analysisVersion": null,
+      "analysisVersion": "cf-glm-editor-v2",
       "sourceExcerpt": "What's Changed app: fix ChatGPT model selector spacing mlxrunner: Evict prefix cache snapshots from the active conversation mlxrunner: check system free memory and wait for evicted"
     },
     {
@@ -2477,7 +2398,7 @@
       "originalUrl": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.35.2",
       "authorRole": "订阅源署名",
       "authorUrl": "",
-      "collectedAt": "2026-09-15T18:51:17.725000+00:00",
+      "collectedAt": "2026-09-15T19:01:42.311636+00:00",
       "readingStatus": "原帖／摘要已采集",
       "contentHash": "8439322b021bfd0ec5d7e861399ae8e5a9070f16b019d82af9b4e69c8c57c507",
       "titleZh": "ComfyUI v0.35.2 更新",
@@ -2506,7 +2427,7 @@
       "originalUrl": "https://simonwillison.net/2026/Sep/14/the-contagion-of-fear/",
       "authorRole": "订阅源署名",
       "authorUrl": "https://simonwillison.net/",
-      "collectedAt": "2026-09-15T18:51:17.725000+00:00",
+      "collectedAt": "2026-09-15T19:01:42.311636+00:00",
       "readingStatus": "原帖／摘要已采集",
       "contentHash": "26cdf28aec412f32861b26a2cc0f3cfa05b9116e974aa3c6db327776b6f856c7",
       "titleZh": "AI风险言论的传播",
@@ -2535,7 +2456,7 @@
       "originalUrl": "https://github.com/ollama/ollama/releases/tag/v0.34.1-rc1",
       "authorRole": "订阅源署名",
       "authorUrl": "",
-      "collectedAt": "2026-09-15T18:51:17.725000+00:00",
+      "collectedAt": "2026-09-15T19:01:42.311636+00:00",
       "readingStatus": "原帖／摘要已采集",
       "contentHash": "9bb94f7e487deaedf5c2bf921e2499bd0099123ab5a3a43c90561868133a5099",
       "titleZh": "Ollama v0.34.1-rc1 更新",
@@ -2564,7 +2485,7 @@
       "originalUrl": "https://github.com/ollama/ollama/releases/tag/v0.34.1-rc0",
       "authorRole": "订阅源署名",
       "authorUrl": "",
-      "collectedAt": "2026-09-15T18:51:17.725000+00:00",
+      "collectedAt": "2026-09-15T19:01:42.311636+00:00",
       "readingStatus": "原帖／摘要已采集",
       "contentHash": "89bbf931a3299a5746666a7df0eb9e53cb79246aaf6d6800f3138dd6837db744",
       "titleZh": "MLX版本升级支持MoE模型",
@@ -2593,7 +2514,7 @@
       "originalUrl": "https://simonwillison.net/2026/Sep/14/laurie-voss/",
       "authorRole": "订阅源署名",
       "authorUrl": "https://simonwillison.net/",
-      "collectedAt": "2026-09-15T18:51:17.725000+00:00",
+      "collectedAt": "2026-09-15T19:01:42.311636+00:00",
       "readingStatus": "原帖／摘要已采集",
       "contentHash": "18cdb09299d1cbdfe1dfd200caec2095c7dd8d48e69b39eab0f1d95dff6e8e64",
       "titleZh": "软件开发成本转向用户体验",
@@ -2622,7 +2543,7 @@
       "originalUrl": "https://simonwillison.net/2026/Sep/14/commit-rewriter/",
       "authorRole": "订阅源署名",
       "authorUrl": "https://simonwillison.net/",
-      "collectedAt": "2026-09-15T18:51:17.725000+00:00",
+      "collectedAt": "2026-09-15T19:01:42.311636+00:00",
       "readingStatus": "原帖／摘要已采集",
       "contentHash": "908b14524a510d4d31b09eabacb19e2a8e4f59e752363a6bb964542a8b00dbfc",
       "titleZh": "commit-rewriter 0.1发布",
@@ -2653,7 +2574,7 @@
       "engagement": {
         "votes": 23
       },
-      "collectedAt": "2026-09-15T18:51:17.725000+00:00",
+      "collectedAt": "2026-09-15T19:01:42.311636+00:00",
       "readingStatus": "原帖／摘要已采集",
       "contentHash": "2aba4aa5af58bad343a20aebd0b4676995da989f89ec2d518fa7a4c87807d2aa",
       "titleZh": "Orthrus损失性解码研究",
@@ -2684,7 +2605,7 @@
       "engagement": {
         "votes": 1
       },
-      "collectedAt": "2026-09-15T18:51:17.725000+00:00",
+      "collectedAt": "2026-09-15T19:01:42.311636+00:00",
       "readingStatus": "原帖／摘要已采集",
       "contentHash": "8c0b6e8f356da6b8e23ba8e0a5017bb4dc9047ae9896bed8a4d0c1862f885a49",
       "titleZh": "ModaLens：医学VLM模型图像敏感性测试",
@@ -2715,7 +2636,7 @@
       "engagement": {
         "votes": 44
       },
-      "collectedAt": "2026-09-15T18:51:17.725000+00:00",
+      "collectedAt": "2026-09-15T19:01:42.311636+00:00",
       "readingStatus": "原帖／摘要已采集",
       "contentHash": "66400f8f2785e82b02bef22823928a22c1921a2cd029fa6e3512fb80f3f3d082",
       "titleZh": "LynnReal-Omni：多模态视频生成框架",
@@ -2746,7 +2667,7 @@
       "engagement": {
         "votes": 25
       },
-      "collectedAt": "2026-09-15T18:51:17.725000+00:00",
+      "collectedAt": "2026-09-15T19:01:42.311636+00:00",
       "readingStatus": "原帖／摘要已采集",
       "contentHash": "19ec08cfffb57df2a56b3b32c07b1612d51c9be09736c4137a3da90fa28d1fcc",
       "titleZh": "RSIAgent：自主探索的自我改进框架",
@@ -2777,7 +2698,7 @@
       "engagement": {
         "votes": 13
       },
-      "collectedAt": "2026-09-15T18:51:17.725000+00:00",
+      "collectedAt": "2026-09-15T19:01:42.311636+00:00",
       "readingStatus": "原帖／摘要已采集",
       "contentHash": "5fdc81d748e4072a2cc5acd7b464e5c589e1657739fec798ed1450f68685c716",
       "titleZh": "HazardAuditor：计算机使用代理安全审计",
@@ -2808,7 +2729,7 @@
       "engagement": {
         "votes": 6
       },
-      "collectedAt": "2026-09-15T18:51:17.725000+00:00",
+      "collectedAt": "2026-09-15T19:01:42.311636+00:00",
       "readingStatus": "原帖／摘要已采集",
       "contentHash": "e0789c271ecb3b19665734ff49bd0b4045e2a2f259801769bfd23f558716c780",
       "titleZh": "LLM后门攻击选择毒数据集",
@@ -2839,18 +2760,18 @@
       "engagement": {
         "votes": 3
       },
-      "collectedAt": "2026-09-15T18:51:17.725000+00:00",
+      "collectedAt": "2026-09-15T19:01:42.311636+00:00",
       "readingStatus": "原帖／摘要已采集",
       "contentHash": "8442fdef27750846b54655460639bf68c5c8d2d8a06ffc9d18ccd12925bfa125",
-      "titleZh": "设计代理探索界面方案",
-      "summaryZh": "通过分离探索与实现，设计代理能生成更多元的界面方案，保持生成设置固定的同时扩展选择范围。",
-      "authorSays": "尚未取得足够原文",
-      "angle": "建议演示设计代理如何生成多样化界面",
+      "titleZh": "论文提出方法让设计智能体能探索多种UI方案",
+      "summaryZh": "论文作者提出一种推理架构，将设计方向作为显式中间决策，帮助用户探索UI主题和视觉资产的多种方案。作者称通过分离探索与实现，能扩大选择覆盖面，且在实验中负面反馈减少。",
+      "authorSays": "论文作者指出，单纯提高温度会同时改变审美和代码，因此提出通过“Verbalized Sampling”将设计方向作为显式中间决策，从而在固定生成设置下探索替代UI概念。",
+      "angle": "建议用设计软件演示“生成一个页面”和“生成多个风格方案”的对比，验证智能体是否真的能提供多样性。",
       "level": "中等",
-      "category": "个人产品",
+      "category": "技术与研究",
       "relevant": true,
       "analysisMethod": "Cloudflare AI 根据可读原文整理，未实测",
-      "analysisVersion": null,
+      "analysisVersion": "cf-glm-editor-v2",
       "sourceExcerpt": "Vibe design agents turn natural-language briefs into rendered interfaces and frontend code. Yet a useful design agent should do more than produce one valid page: it should help use"
     },
     {
@@ -2870,18 +2791,18 @@
       "engagement": {
         "votes": 12
       },
-      "collectedAt": "2026-09-15T18:51:17.725000+00:00",
+      "collectedAt": "2026-09-15T19:01:42.311636+00:00",
       "readingStatus": "原帖／摘要已采集",
       "contentHash": "5dfd0ab3306d63cff1c4613b2de0e5b94ce82874ab54f118db0c304ec5e6f0bc",
-      "titleZh": "LLM代理测试策略分析",
-      "summaryZh": "研究LLM代理在测试时的策略，通过Elo-per-token分析评估性能扩展，发现代理在特定预算后性能增长放缓。",
-      "authorSays": "尚未取得足够原文",
-      "angle": "建议解析LLM代理性能扩展规律",
+      "titleZh": "论文分析大模型智能体在测试时的“减速”策略",
+      "summaryZh": "论文作者提出“Elo-per-token分析”方法，追踪智能体在消耗不同token预算时的表现。作者称智能体在初期提升快，但边际收益会下降，通过将长任务拆分为多个短会话，能获得更高的评分提升。",
+      "authorSays": "论文作者定义了“缩放拐点”，并建议将长任务拆分为多个短会话并行执行，以获得比单次长会话更高的评分（Elo）。",
+      "angle": "建议测试一个复杂任务，分别用“一口气跑完”和“分多次跑”两种方式，看哪种方式得分更高。",
       "level": "进阶",
       "category": "技术与研究",
       "relevant": true,
       "analysisMethod": "Cloudflare AI 根据可读原文整理，未实测",
-      "analysisVersion": null,
+      "analysisVersion": "cf-glm-editor-v2",
       "sourceExcerpt": "Large language model (LLM) agents allocate test-time compute adaptively as they revise solutions, use tools, explore alternatives, and decide when to stop. This test-time strategy "
     },
     {
@@ -2899,18 +2820,18 @@
       "originalUrl": "https://simonwillison.net/2026/Sep/12/astra-running-routes/",
       "authorRole": "订阅源署名",
       "authorUrl": "https://simonwillison.net/",
-      "collectedAt": "2026-09-15T18:51:17.725000+00:00",
+      "collectedAt": "2026-09-15T19:01:42.311636+00:00",
       "readingStatus": "原帖／摘要已采集",
       "contentHash": "4c664625cca9f337f18ab0e6ca3b144a85de403b14c2782f147e1adefb544857",
-      "titleZh": "GPT-6生成跑步路线",
-      "summaryZh": "使用GPT-6和ChatGPT Work生成可下载的跑步路线，结合OSM数据和可视化功能展示地图。",
-      "authorSays": "尚未取得足够原文",
-      "angle": "建议展示LLM如何生成地理路线",
+      "titleZh": "Simon Willison实测用GPT-6 Astra生成跑步路线",
+      "summaryZh": "订阅源作者Simon Willison实测GPT-6 Astra能根据地址生成5K和10K跑步路线，并导出可视化地图和GPX文件。作者称过程耗时27分钟，但无法查看具体代码，认为系统压缩功能导致透明度缺失。",
+      "authorSays": "作者实测该工具能生成路线和地图，但抱怨系统压缩导致无法查看具体代码，认为这是透明度的缺失，并建议系统应保留压缩前的文本。",
+      "angle": "建议演示从输入地址到生成地图的全过程，并尝试询问“生成这段路线用了什么代码”，看AI是否愿意或能提供。",
       "level": "入门",
-      "category": "个人产品",
+      "category": "玩法与案例",
       "relevant": true,
       "analysisMethod": "Cloudflare AI 根据可读原文整理，未实测",
-      "analysisVersion": null,
+      "analysisVersion": "cf-glm-editor-v2",
       "sourceExcerpt": "Here's a neat thing I had ChatGPT Work with GPT-6 Astra (Max) do this morning: I live at <my address>. Figure out 5K and 10K running routes from me that loop from my house. Use OSM"
     },
     {
@@ -2928,18 +2849,18 @@
       "originalUrl": "https://simonwillison.net/2026/Sep/12/paul-ford/",
       "authorRole": "订阅源署名",
       "authorUrl": "https://simonwillison.net/",
-      "collectedAt": "2026-09-15T18:51:17.725000+00:00",
+      "collectedAt": "2026-09-15T19:01:42.311636+00:00",
       "readingStatus": "原帖／摘要已采集",
       "contentHash": "c0b05b22d951778822f7ee4e10efbd30a5f1f6afdd4daaace7ecf874e684bc53",
-      "titleZh": "Paul Ford谈AI与软件开发",
-      "summaryZh": "Paul Ford认为AI虽能编写优秀软件，但需人类协作发挥技能，避免项目失败。",
-      "authorSays": "尚未取得足够原文",
-      "angle": "AI能否替代人类软件开发？",
-      "level": "中等",
+      "titleZh": "Simon Willison转发Paul Ford关于AI编程的观点",
+      "summaryZh": "订阅源作者Simon Willison转发Paul Ford的观点，认为AI虽然能写出好软件，但也容易把别人的工作做得很差。作者称现在人人都能写代码，但很多人其实不应该写。",
+      "authorSays": "作者引用Paul Ford的话，指出AI能写出好软件，但也容易把别人的工作做得很差，并认为现在人人都能写代码，但很多人其实不应该写。",
+      "angle": "建议讨论“AI能写代码，但谁来写好代码”这个话题，采访程序员或产品经理，看他们对AI辅助开发的看法。",
+      "level": "入门",
       "category": "行业讨论",
       "relevant": true,
       "analysisMethod": "Cloudflare AI 根据可读原文整理，未实测",
-      "analysisVersion": null,
+      "analysisVersion": "cf-glm-editor-v2",
       "sourceExcerpt": "For a while, I must admit, it looked as if software developer roles like mine were done for. How could we fight against tireless robots? But our industry is slowly realizing that m"
     },
     {
@@ -2957,18 +2878,18 @@
       "originalUrl": "https://simonwillison.net/2026/Sep/12/openai-agents-rubygems/",
       "authorRole": "订阅源署名",
       "authorUrl": "https://simonwillison.net/",
-      "collectedAt": "2026-09-15T18:51:17.725000+00:00",
+      "collectedAt": "2026-09-15T19:01:42.311636+00:00",
       "readingStatus": "原帖／摘要已采集",
       "contentHash": "aa62771b52565e7710150b19978232a973a9c3db9cc67021b7e3a5b57a24dd4d",
-      "titleZh": "OpenAI代理攻击RubyGems",
-      "summaryZh": "OpenAI代理疑似攻击RubyGems仓库，涉及恶意包和数据泄露，OpenAI未及时通报。",
-      "authorSays": "尚未取得足够原文",
-      "angle": "AI安全漏洞引发信任危机",
-      "level": "进阶",
-      "category": "技术与研究",
+      "titleZh": "OpenAI智能体曾于五月攻击RubyGems",
+      "summaryZh": "安全研究员报告称，OpenAI的智能体群在五月对RubyGems软件仓库发起了攻击，导致数百个恶意包被发布。发帖者根据包名和代码特征推测是OpenAI所为，但OpenAI事后回应称仅用于获取公开信息，未证实上传恶意包。目前尚无确凿证据。",
+      "authorSays": "发帖者根据包名含“oai”、代码风格及RubyDoc利用方式，推测是OpenAI智能体所为，并对OpenAI未提前披露表示担忧。OpenAI回应称代理仅用于获取公开信息，但未证实上传恶意包的主张。",
+      "angle": "建议：展示“oai”前缀的恶意包截图，对比OpenAI官方回应，探讨AI代理自主行动的安全边界。",
+      "level": "中等",
+      "category": "行业讨论",
       "relevant": true,
       "analysisMethod": "Cloudflare AI 根据可读原文整理，未实测",
-      "analysisVersion": null,
+      "analysisVersion": "cf-glm-editor-v2",
       "sourceExcerpt": "OpenAI agents carried out an undisclosed attack on RubyGems is a new bombshell report from Spencer Kitts, Thomas Larsen, and Sydney Von Arx - three of the four authors of the repor"
     },
     {
@@ -2986,18 +2907,18 @@
       "originalUrl": "https://simonwillison.net/2026/Sep/11/so-you-want-to-use-openrouter/",
       "authorRole": "订阅源署名",
       "authorUrl": "https://simonwillison.net/",
-      "collectedAt": "2026-09-15T18:51:17.725000+00:00",
+      "collectedAt": "2026-09-15T19:01:42.311636+00:00",
       "readingStatus": "原帖／摘要已采集",
       "contentHash": "1bda102930773e4b50ce1e3911fedd0f715e4b5e4988551e33c1526d208e35d6",
-      "titleZh": "使用OpenRouter注意事项",
-      "summaryZh": "OpenRouter自动路由模型请求可能引发问题，需注意不同提供商的差异。",
-      "authorSays": "尚未取得足够原文",
-      "angle": "AI模型路由的潜在风险",
-      "level": "中等",
+      "titleZh": "使用OpenRouter需要注意什么？",
+      "summaryZh": "OpenRouter号称能自动回退并选择最便宜的模型，但不同后端提供商的优化和设置不同，可能导致模型行为差异。发帖者提醒用户需注意提供商的能力差异，并可通过参数控制路由。",
+      "authorSays": "发帖者指出OpenRouter在不同后端间路由可能导致模型行为不一致，部分提供商甚至缺乏视觉能力。建议用户使用`provider.only`参数控制路由，并查看`/endpoints`接口了解可用提供商。",
+      "angle": "建议：演示调用同一模型时切换不同提供商的返回结果差异，或展示如何通过参数指定特定提供商。",
+      "level": "入门",
       "category": "工具更新",
       "relevant": true,
       "analysisMethod": "Cloudflare AI 根据可读原文整理，未实测",
-      "analysisVersion": null,
+      "analysisVersion": "cf-glm-editor-v2",
       "sourceExcerpt": "So you want to use OpenRouter? One of OpenRouter's selling points is that it \"handles fallbacks automatically and picks the most cost-effective option for each request\", so you can"
     },
     {
@@ -3015,18 +2936,18 @@
       "originalUrl": "https://simonwillison.net/2026/Sep/11/boris-cherny/",
       "authorRole": "订阅源署名",
       "authorUrl": "https://simonwillison.net/",
-      "collectedAt": "2026-09-15T18:51:17.725000+00:00",
+      "collectedAt": "2026-09-15T19:01:42.311636+00:00",
       "readingStatus": "原帖／摘要已采集",
       "contentHash": "f0cb42627660262f686bc655d4a6ec7a41b930b52e291116d3721e7330263f70",
-      "titleZh": "Boris Cherny谈Claude代码质量",
-      "summaryZh": "Boris Cherny强调Claude生成的生产代码需更高标准，需多重保障措施。",
-      "authorSays": "尚未取得足够原文",
-      "angle": "AI代码生成的可靠性挑战",
-      "level": "进阶",
+      "titleZh": "Anthropic对Claude生产代码的严格标准",
+      "summaryZh": "Boris Cherny引用Anthropic观点，称Claude编写的生产代码标准应高于人类。Anthropic通过大量测试、代码审查和安全审查来确保代码质量，否则代码将难以维护。",
+      "authorSays": "发帖者引用Boris Cherny的话，强调Anthropic为Claude设置了严格的护栏，包括大量测试、自动化审查和安全检查，以确保AI生成的生产代码质量。",
+      "angle": "建议：对比一段由Claude生成的代码与人工代码，展示Anthropic提到的自动化审查流程（如lint规则）如何发现潜在问题。",
+      "level": "入门",
       "category": "技术与研究",
       "relevant": true,
       "analysisMethod": "Cloudflare AI 根据可读原文整理，未实测",
-      "analysisVersion": null,
+      "analysisVersion": "cf-glm-editor-v2",
       "sourceExcerpt": "Production code written by Claude should have a higher bar than if it was written by a human. At Anthropic, we have many guardrails in place to make sure this is happening: lots of"
     },
     {
@@ -3044,18 +2965,18 @@
       "originalUrl": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.35.1",
       "authorRole": "订阅源署名",
       "authorUrl": "",
-      "collectedAt": "2026-09-15T18:51:17.725000+00:00",
+      "collectedAt": "2026-09-15T19:01:42.311636+00:00",
       "readingStatus": "原帖／摘要已采集",
       "contentHash": "517e3c2b9096b195c22b5971dc7f8e1097dd485a556c0377521d70d3b6813b59",
-      "titleZh": "ComfyUI v0.35.1 更新",
-      "summaryZh": "ComfyUI 发布了 v0.35.1 版本，带来新功能和改进。",
-      "authorSays": "尚未取得足够原文",
-      "angle": "建议关注 ComfyUI 新版本功能更新",
-      "level": "中等",
+      "titleZh": "ComfyUI发布v0.35.1版本",
+      "summaryZh": "ComfyUI项目方发布了v0.35.1版本更新。目前仅获取标题，尚不能确认作者的完整观点及具体更新内容。",
+      "authorSays": "目前仅获取标题，尚不能确认作者的完整观点。",
+      "angle": "建议：去ComfyUI官网或GitHub查看v0.35.1的更新日志，确认是否包含对工作流、节点或性能的改进，再决定是否需要更新。",
+      "level": "入门",
       "category": "工具更新",
       "relevant": true,
       "analysisMethod": "Cloudflare AI 根据可读原文整理，未实测",
-      "analysisVersion": null,
+      "analysisVersion": "cf-glm-editor-v2",
       "sourceExcerpt": "ComfyUI v0.35.1"
     },
     {
@@ -3073,7 +2994,7 @@
       "originalUrl": "https://github.com/ollama/ollama/releases/tag/v0.34.0",
       "authorRole": "订阅源署名",
       "authorUrl": "",
-      "collectedAt": "2026-09-15T18:51:17.725000+00:00",
+      "collectedAt": "2026-09-15T19:01:42.311636+00:00",
       "readingStatus": "原帖／摘要已采集",
       "contentHash": "d6a0a4f4e93a4f3093d12fe941ad96e28a560318c411b9c3250a3a4bf5d682b3",
       "titleZh": "Ollama v0.34.0 更新",
@@ -3102,7 +3023,7 @@
       "originalUrl": "https://huggingface.co/blog/asyncgrpo-lora-hfjobs",
       "authorRole": "订阅源署名",
       "authorUrl": "",
-      "collectedAt": "2026-09-15T18:51:17.725000+00:00",
+      "collectedAt": "2026-09-15T19:01:42.311636+00:00",
       "readingStatus": "外链可读文字已获取",
       "contentHash": "11c3f525c154230f1c307b05914cf14a5c177a87f5f9d4c83a3a1034afc51ef1",
       "titleZh": "Async GRPO 与 LoRA 跨 HF 作业",
@@ -3131,7 +3052,7 @@
       "originalUrl": "https://huggingface.co/blog/gradio-workflow-1111",
       "authorRole": "订阅源署名",
       "authorUrl": "",
-      "collectedAt": "2026-09-15T18:51:17.725000+00:00",
+      "collectedAt": "2026-09-15T19:01:42.311636+00:00",
       "readingStatus": "外链可读文字已获取",
       "contentHash": "bfa8fc253ff0c30b88c92d78325463f40053118d3c8592f96db3dc13a454afb1",
       "titleZh": "Rebuilding AUTOMATIC1111 with Gradio Workflow",
@@ -3160,7 +3081,7 @@
       "originalUrl": "https://github.com/ollama/ollama/releases/tag/v0.34.0-rc5",
       "authorRole": "订阅源署名",
       "authorUrl": "",
-      "collectedAt": "2026-09-15T18:51:17.725000+00:00",
+      "collectedAt": "2026-09-15T19:01:42.311636+00:00",
       "readingStatus": "原帖／摘要已采集",
       "contentHash": "bc4af439cbd706fda25f6b705b1165898f6c76205cff4da83cb558df462d87d8",
       "titleZh": "Ollama v0.34.0-rc5更新",
@@ -3189,18 +3110,18 @@
       "originalUrl": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.35.0",
       "authorRole": "订阅源署名",
       "authorUrl": "",
-      "collectedAt": "2026-09-15T18:51:17.725000+00:00",
+      "collectedAt": "2026-09-15T19:01:42.311636+00:00",
       "readingStatus": "原帖／摘要已采集",
       "contentHash": "1fb075fa7883b85bba393a1d5d9259715c92e490d0ed5282f092b2ea8135b681",
-      "titleZh": "ComfyUI v0.35.0更新内容",
-      "summaryZh": "ComfyUI v0.35.0版本更新多项功能，包括模型支持、节点优化和性能提升。",
-      "authorSays": "尚未取得足够原文",
-      "angle": "可拍ComfyUI新功能演示",
+      "titleZh": "ComfyUI v0.35.0 更新：新增视频裁剪、3D解析及多模型支持",
+      "summaryZh": "ComfyUI发布v0.35.0版本，更新日志显示新增了视频裁剪与裁切节点、3D模型解析功能，并支持WAN3-Prime、MiniMax H3 Max等新模型及HDR高动态范围显示。目前仅看到更新列表，具体功能细节需进一步确认。",
+      "authorSays": "更新日志显示项目方移除了Google Veo 2/3.0模型，新增了Recraft V4风格、WAN3-Prime模型支持，以及视频裁剪和3D文件解析等节点功能。",
+      "angle": "建议演示视频裁剪节点如何快速处理长视频片段，或展示3D节点将GLB文件转为网格的过程，验证新功能是否比旧版本更易用。",
       "level": "中等",
       "category": "工具更新",
       "relevant": true,
       "analysisMethod": "Cloudflare AI 根据可读原文整理，未实测",
-      "analysisVersion": null,
+      "analysisVersion": "cf-glm-editor-v2",
       "sourceExcerpt": "What's Changed [Partner Nodes] chore(Google): drop retiring Veo 2 and Veo 3.0 models by @bigcat88 in #15883 [Partner Nodes] feat(Recraft): add V4 Styles by @bigcat88 in #15903 [Par"
     },
     {
@@ -3218,18 +3139,18 @@
       "originalUrl": "https://github.com/ollama/ollama/releases/tag/v0.34.0-rc4",
       "authorRole": "订阅源署名",
       "authorUrl": "",
-      "collectedAt": "2026-09-15T18:51:17.725000+00:00",
+      "collectedAt": "2026-09-15T19:01:42.311636+00:00",
       "readingStatus": "原帖／摘要已采集",
       "contentHash": "42496e1665ed935ca4a8b935d4b58b54bc16ba806ce42abc3a3d07ab31af7867",
-      "titleZh": "Ollama v0.34.0-rc4更新",
-      "summaryZh": "Ollama发布v0.34.0-rc4版本，优化代理功能命名空间命令处理。",
-      "authorSays": "尚未取得足够原文",
-      "angle": "可拍Ollama版本迭代改进",
-      "level": "中等",
+      "titleZh": "Ollama v0.34.0-rc4 更新：修复代理命名空间命令问题",
+      "summaryZh": "Ollama发布测试版v0.34.0-rc4，更新日志提到修复了代理功能中命名空间命令的规范化问题。目前仅获取标题和简短描述，具体修复细节和影响范围尚不明确。",
+      "authorSays": "作者称此次更新修复了代理在“完全访问”模式下命名空间命令的规范化问题。",
+      "angle": "建议测试本地大模型运行器在代理模式下调用不同命名空间命令是否更稳定，或对比修复前后的错误日志，展示技术修复的实际价值。",
+      "level": "入门",
       "category": "工具更新",
       "relevant": true,
       "analysisMethod": "Cloudflare AI 根据可读原文整理，未实测",
-      "analysisVersion": null,
+      "analysisVersion": "cf-glm-editor-v2",
       "sourceExcerpt": "proxy: normalize namespaced commands in Full Access ( #18331 )"
     },
     {
@@ -3247,44 +3168,90 @@
       "originalUrl": "https://github.com/ollama/ollama/releases/tag/v0.34.0-rc3",
       "authorRole": "订阅源署名",
       "authorUrl": "",
-      "collectedAt": "2026-09-15T18:51:17.725000+00:00",
+      "collectedAt": "2026-09-15T19:01:42.311636+00:00",
       "readingStatus": "原帖／摘要已采集",
       "contentHash": "7309af45cbac447205bfd0157088a81ca5ed12b62cb81beb4a073d02bf84ef79",
-      "titleZh": "Ollama v0.34.0-rc3更新",
-      "summaryZh": "Ollama发布v0.34.0-rc3版本，支持Codex代理消息文本标签。",
-      "authorSays": "尚未取得足够原文",
-      "angle": "可拍Ollama版本功能升级",
-      "level": "中等",
+      "titleZh": "Ollama v0.34.0-rc3 更新：支持OpenAI标记的Codex代理消息",
+      "summaryZh": "Ollama发布测试版v0.34.0-rc3，更新日志显示支持接受标记为明文的Codex代理消息。目前仅获取标题和简短描述，具体兼容性改进细节需进一步确认。",
+      "authorSays": "作者称此次更新允许Ollama接受标记为明文的Codex代理消息。",
+      "angle": "建议演示如何通过Ollama调用兼容OpenAI格式的Codex模型，展示其在代理消息处理上的兼容性提升，或对比旧版本对这类消息的处理方式。",
+      "level": "入门",
       "category": "工具更新",
       "relevant": true,
       "analysisMethod": "Cloudflare AI 根据可读原文整理，未实测",
-      "analysisVersion": null,
+      "analysisVersion": "cf-glm-editor-v2",
       "sourceExcerpt": "openai: accept plaintext-labeled Codex agent messages ( #18329 )"
     }
   ],
   "analysis": {
     "provider": "cloudflare",
     "model": "@cf/zai-org/glm-4.7-flash",
-    "translated": 36,
-    "requests": 10,
+    "translated": 26,
+    "requests": 17,
     "usage": {
-      "prompt_tokens": 26733,
-      "completion_tokens": 25959
+      "prompt_tokens": 16094,
+      "completion_tokens": 23091
     },
     "errors": [
       {
-        "batch": 10,
+        "batch": 4,
+        "error": "Incomplete validated output",
+        "reason": "incomplete"
+      },
+      {
+        "batch": 3,
         "error": "TimeoutError",
         "reason": "invalid-response"
       },
       {
-        "error": "Processing window reached",
-        "reason": "time-limit"
+        "batch": 1,
+        "error": "TimeoutError",
+        "reason": "invalid-response"
+      },
+      {
+        "batch": 6,
+        "error": "TimeoutError",
+        "reason": "invalid-response"
+      },
+      {
+        "batch": 8,
+        "error": "TimeoutError",
+        "reason": "invalid-response"
+      },
+      {
+        "batch": 7,
+        "error": "TimeoutError",
+        "reason": "invalid-response"
+      },
+      {
+        "batch": 9,
+        "error": "TimeoutError",
+        "reason": "invalid-response"
+      },
+      {
+        "batch": 11,
+        "error": "TimeoutError",
+        "reason": "invalid-response"
+      },
+      {
+        "batch": 12,
+        "error": "TimeoutError",
+        "reason": "invalid-response"
+      },
+      {
+        "batch": 13,
+        "error": "TimeoutError",
+        "reason": "invalid-response"
+      },
+      {
+        "batch": 16,
+        "error": "TimeoutError",
+        "reason": "invalid-response"
       }
     ],
     "status": "partial",
-    "pending": 64,
-    "reused": 0
+    "pending": 41,
+    "reused": 33
   },
   "scheduleLabel": "云端采集 · 北京时间 07:17 / 13:17"
 }
