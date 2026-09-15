@@ -164,7 +164,7 @@ jobs:
           cat > enrich.py <<'ENRICH_PY'
           #!/usr/bin/env python3
           """Summarize public sources with Cloudflare's free-plan model; no paid-provider fallback."""
-          import concurrent.futures, hashlib, html, ipaddress, json, os, re, socket, sys, time, urllib.error, urllib.parse, urllib.request
+          import concurrent.futures, hashlib, html, ipaddress, json, os, re, socket, sys, threading, time, urllib.error, urllib.parse, urllib.request
           from html.parser import HTMLParser
           from pathlib import Path
 
@@ -266,37 +266,47 @@ jobs:
            key=os.getenv('CLOUDFLARE_API_TOKEN','');account=os.getenv('CLOUDFLARE_ACCOUNT_ID','')
            if not key or not re.fullmatch('[a-fA-F0-9]{32}',account):return {**base,'status':'not-configured','pending':len(items)}
            endpoint='https://api.cloudflare.com/client/v4/accounts/'+account+'/ai/v1/chat/completions'
-           started=time.monotonic();stop=False
-           for start in range(0,len(items),4):
-            if stop:break
+           started=time.monotonic();stop=threading.Event()
+           def process_batch(start):
+            result={'translated':0,'requests':0,'usage':{'prompt_tokens':0,'completion_tokens':0},'errors':[]}
+            if stop.is_set():return result
             if time.monotonic()-started>540:
-             base['errors'].append({'error':'Processing window reached','reason':'time-limit'});break
+             stop.set();result['errors'].append({'error':'Processing window reached','reason':'time-limit'});return result
             batch=items[start:start+4]
             prompt=[{'id':x['id'],'title':x['title'],'author':x['author'],'authorRole':x.get('authorRole'),'source':x['source'],'text':x.get('sourceText','')[:3500]} for x in batch]
             payload={'model':MODEL,'messages':[{'role':'system','content':PROMPT},{'role':'user','content':json.dumps(prompt,ensure_ascii=False)}],'response_format':{'type':'json_object'},'temperature':0.3,'max_tokens':6000,'reasoning_effort':'low'}
             for attempt in range(2):
              try:
               req=urllib.request.Request(endpoint,data=json.dumps(payload,ensure_ascii=False).encode(),headers={'Authorization':'Bearer '+key,'Content-Type':'application/json'})
-              base['requests']+=1
+              if stop.is_set():return result
+              result['requests']+=1
               with urllib.request.urlopen(req,timeout=75) as r:ans=json.load(r)
-              for k in base['usage']:
+              for k in result['usage']:
                value=ans.get('usage',{}).get(k,0)
-               if isinstance(value,int) and value>=0:base['usage'][k]+=value
-              count=apply_updates(batch,parse_updates(ans));base['translated']+=count
-              if count<len(batch):base['errors'].append({'batch':start//4+1,'error':'Incomplete validated output','reason':'incomplete'})
+               if isinstance(value,int) and value>=0:result['usage'][k]+=value
+              count=apply_updates(batch,parse_updates(ans));result['translated']+=count
+              if count<len(batch):result['errors'].append({'batch':start//4+1,'error':'Incomplete validated output','reason':'incomplete'})
               break
              except urllib.error.HTTPError as e:
               error=safe_http_error(e)
-              if error['reason']=='free-quota' or e.code in (400,401,403,404):stop=True
-              if not stop and (e.code==429 or e.code>=500) and attempt==0:
+              if error['reason']=='free-quota' or e.code in (400,401,403,404):stop.set()
+              if not stop.is_set() and (e.code==429 or e.code>=500) and attempt==0:
                time.sleep(8);continue
-              base['errors'].append({'batch':start//4+1,**error})
-              if e.code==429:stop=True
+              result['errors'].append({'batch':start//4+1,**error})
+              if e.code==429:stop.set()
               break
              except Exception as e:
-              base['errors'].append({'batch':start//4+1,'error':type(e).__name__,'reason':'invalid-response'});break
-            print('Chinese summaries:',base['translated'],'/',len(items),flush=True)
-            if not stop and start+4<len(items):time.sleep(1)
+              result['errors'].append({'batch':start//4+1,'error':type(e).__name__,'reason':'invalid-response'});break
+            return result
+           # Four bounded API requests at a time; the free plan enforces its account-wide cap.
+           with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool:
+            tasks=[pool.submit(process_batch,start) for start in range(0,len(items),4)]
+            for task in concurrent.futures.as_completed(tasks):
+             result=task.result()
+             for k in ('translated','requests'):base[k]+=result[k]
+             for k in base['usage']:base['usage'][k]+=result['usage'][k]
+             base['errors'].extend(result['errors'])
+             if result['requests']:print('Chinese summaries:',base['translated'],'/',len(items),flush=True)
            return {**base,'status':'complete' if base['translated']==len(items) else 'partial','pending':len(items)-base['translated']}
 
           def main():
